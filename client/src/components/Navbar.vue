@@ -69,7 +69,7 @@
           <Button
             label="Request Quote"
             icon="pi pi-send"
-            class="p-button-primary"
+            class="!bg-gold-accent hover:!bg-gold-accent/90 !border-gold-accent !text-deep-oak font-semibold !px-6 !py-3"
             @click="$router.push('/contact')"
           />
         </div>
