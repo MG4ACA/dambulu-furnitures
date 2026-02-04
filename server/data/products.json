@@ -1,0 +1,284 @@
+[
+  {
+    "id": "1",
+    "name": "Royal Heritage Sofa Set",
+    "category": "Sofas",
+    "categoryCode": "sofas",
+    "shortDescription": "Elegant 7-seater sofa set with premium teak wood frame and plush cushions",
+    "description": "Experience luxury living with our Royal Heritage Sofa Set. Crafted from premium teak wood with hand-carved details, this stunning 7-seater set includes a 3-seater sofa, two 2-seater sofas, and matching coffee table. The plush cushions are filled with high-density foam and covered in premium fabric.",
+    "fullDescription": "Experience luxury living with our Royal Heritage Sofa Set. Crafted from premium teak wood with hand-carved details, this stunning 7-seater set includes a 3-seater sofa, two 2-seater sofas, and matching coffee table. The plush cushions are filled with high-density foam and covered in premium fabric that is both durable and comfortable. The intricate woodwork showcases traditional Sri Lankan craftsmanship while the modern silhouette ensures it fits perfectly in contemporary homes.",
+    "price": 185000,
+    "originalPrice": 210000,
+    "images": [
+      "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=800&q=80",
+      "https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?w=800&q=80",
+      "https://images.unsplash.com/photo-1506439773649-6e0eb8cfb237?w=800&q=80"
+    ],
+    "dimensions": {
+      "width": 220,
+      "height": 90,
+      "depth": 85
+    },
+    "material": "Premium Teak Wood",
+    "color": "Natural Brown",
+    "finish": "Lacquer Polish",
+    "weight": 85,
+    "features": [
+      "Premium teak wood frame",
+      "High-density foam cushions",
+      "Hand-carved details",
+      "Stain-resistant fabric",
+      "Includes coffee table"
+    ],
+    "isBestSeller": true,
+    "isNew": false,
+    "inStock": true,
+    "rating": 5,
+    "reviews": 48,
+    "createdAt": "2024-01-15T00:00:00Z"
+  },
+  {
+    "id": "2",
+    "name": "Colonial Bedroom Suite",
+    "category": "Bedroom Sets",
+    "categoryCode": "bedroom",
+    "shortDescription": "Complete bedroom set with king-size bed, wardrobes, and dressing table",
+    "description": "Transform your bedroom into a royal retreat with our Colonial Bedroom Suite. This comprehensive set includes a stunning king-size bed with intricate headboard carving, two matching bedside tables, a spacious 3-door wardrobe, and an elegant dressing table with mirror.",
+    "price": 325000,
+    "originalPrice": 375000,
+    "images": [
+      "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=800&q=80",
+      "https://images.unsplash.com/photo-1540518614846-7eded433c457?w=800&q=80"
+    ],
+    "dimensions": {
+      "width": 180,
+      "height": 150,
+      "depth": 200
+    },
+    "material": "Mahogany Wood",
+    "color": "Dark Walnut",
+    "finish": "Hand-rubbed Polish",
+    "weight": 250,
+    "features": [
+      "King-size bed with carved headboard",
+      "Two bedside tables included",
+      "3-door wardrobe with mirror",
+      "Elegant dressing table",
+      "Soft-close drawer mechanisms"
+    ],
+    "isBestSeller": true,
+    "isNew": false,
+    "inStock": true,
+    "rating": 5,
+    "reviews": 35,
+    "createdAt": "2024-02-10T00:00:00Z"
+  },
+  {
+    "id": "3",
+    "name": "Heritage Dining Table",
+    "category": "Dining Tables",
+    "categoryCode": "dining",
+    "shortDescription": "8-seater dining table with matching chairs in solid jak wood",
+    "description": "Gather your family around our magnificent Heritage Dining Table. This 8-seater masterpiece is crafted from solid jak wood, featuring a stunning grain pattern and robust construction that will last generations.",
+    "price": 145000,
+    "images": [
+      "https://images.unsplash.com/photo-1617806118233-18e1de247200?w=800&q=80",
+      "https://images.unsplash.com/photo-1595428774223-ef52624120d2?w=800&q=80"
+    ],
+    "dimensions": {
+      "width": 240,
+      "height": 76,
+      "depth": 100
+    },
+    "material": "Jak Wood",
+    "color": "Golden Brown",
+    "finish": "Natural Lacquer",
+    "weight": 120,
+    "features": [
+      "Solid jak wood construction",
+      "8 matching chairs included",
+      "Extendable design (+60cm)",
+      "Carved table legs",
+      "Scratch-resistant finish"
+    ],
+    "isBestSeller": true,
+    "isNew": false,
+    "inStock": true,
+    "rating": 4,
+    "reviews": 28,
+    "createdAt": "2024-03-01T00:00:00Z"
+  },
+  {
+    "id": "4",
+    "name": "Classic Teak Almirah",
+    "category": "Almirahs",
+    "categoryCode": "almirahs",
+    "shortDescription": "Spacious 4-door almirah with full-length mirror and ample storage",
+    "description": "Organize your wardrobe in style with our Classic Teak Almirah. This spacious 4-door unit features a full-length mirror, multiple shelves, hanging space, and dedicated drawers for accessories.",
+    "price": 95000,
+    "originalPrice": 110000,
+    "images": [
+      "https://images.unsplash.com/photo-1558997519-83ea9252edf8?w=800&q=80",
+      "https://images.unsplash.com/photo-1595428774223-ef52624120d2?w=800&q=80"
+    ],
+    "dimensions": {
+      "width": 180,
+      "height": 210,
+      "depth": 60
+    },
+    "material": "Teak Wood",
+    "color": "Natural Teak",
+    "finish": "Melamine Polish",
+    "weight": 150,
+    "features": [
+      "Full-length mirror on door",
+      "Adjustable shelving",
+      "Dedicated hanging space",
+      "Built-in drawers",
+      "Anti-termite treated"
+    ],
+    "isBestSeller": false,
+    "isNew": true,
+    "inStock": true,
+    "rating": 5,
+    "reviews": 22,
+    "createdAt": "2024-11-01T00:00:00Z"
+  },
+  {
+    "id": "5",
+    "name": "Veranda Relaxer Chair Set",
+    "category": "Veranda Chairs",
+    "categoryCode": "veranda",
+    "shortDescription": "Set of 4 comfortable outdoor chairs with matching table",
+    "description": "Enjoy the outdoors with our Veranda Relaxer Chair Set. Designed for durability and comfort, these chairs feature ergonomic backs and weather-resistant finish perfect for your veranda or garden.",
+    "price": 68000,
+    "images": [
+      "https://images.unsplash.com/photo-1506439773649-6e0eb8cfb237?w=800&q=80",
+      "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=800&q=80"
+    ],
+    "dimensions": {
+      "width": 65,
+      "height": 95,
+      "depth": 70
+    },
+    "material": "Treated Teak",
+    "color": "Weathered Gray",
+    "finish": "Outdoor Sealant",
+    "weight": 45,
+    "features": [
+      "Set of 4 chairs + table",
+      "Weather-resistant finish",
+      "Ergonomic design",
+      "UV protected",
+      "Easy maintenance"
+    ],
+    "isBestSeller": false,
+    "isNew": false,
+    "inStock": true,
+    "rating": 4,
+    "reviews": 15,
+    "createdAt": "2024-05-15T00:00:00Z"
+  },
+  {
+    "id": "6",
+    "name": "Executive Office Desk",
+    "category": "Custom Interior",
+    "categoryCode": "custom",
+    "shortDescription": "Premium L-shaped executive desk with integrated cable management",
+    "description": "Make a statement in your office with our Executive Office Desk. This L-shaped desk combines functionality with elegance, featuring integrated cable management, lockable drawers, and a spacious work surface.",
+    "price": 125000,
+    "images": [
+      "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?w=800&q=80"
+    ],
+    "dimensions": {
+      "width": 180,
+      "height": 75,
+      "depth": 160
+    },
+    "material": "Oak Wood",
+    "color": "Dark Oak",
+    "finish": "Matte Lacquer",
+    "weight": 95,
+    "features": [
+      "L-shaped design",
+      "Integrated cable management",
+      "Lockable drawers",
+      "Leather desk pad included",
+      "Matching bookshelf available"
+    ],
+    "isBestSeller": false,
+    "isNew": true,
+    "inStock": true,
+    "rating": 5,
+    "reviews": 12,
+    "createdAt": "2024-10-01T00:00:00Z"
+  },
+  {
+    "id": "7",
+    "name": "Modern TV Console",
+    "category": "Custom Interior",
+    "categoryCode": "custom",
+    "shortDescription": "Sleek entertainment unit with hidden storage and floating design",
+    "description": "Elevate your living room with our Modern TV Console. This wall-mounted unit features a floating design, ample hidden storage, and cable management system for a clean, contemporary look.",
+    "price": 78000,
+    "images": [
+      "https://images.unsplash.com/photo-1556228453-efd6c1ff04f6?w=800&q=80"
+    ],
+    "dimensions": {
+      "width": 200,
+      "height": 45,
+      "depth": 40
+    },
+    "material": "Engineered Wood & Teak",
+    "color": "Two-tone Walnut",
+    "finish": "PU Coating",
+    "weight": 55,
+    "features": [
+      "Wall-mounted floating design",
+      "Hidden cable management",
+      "Soft-close cabinets",
+      "LED backlight ready",
+      "Up to 65\" TV support"
+    ],
+    "isBestSeller": false,
+    "isNew": true,
+    "inStock": true,
+    "rating": 4,
+    "reviews": 8,
+    "createdAt": "2024-09-15T00:00:00Z"
+  },
+  {
+    "id": "8",
+    "name": "Antique Reproduction Cabinet",
+    "category": "Almirahs",
+    "categoryCode": "almirahs",
+    "shortDescription": "Handcrafted display cabinet with glass doors and brass fittings",
+    "description": "Showcase your treasures in our Antique Reproduction Cabinet. This meticulously handcrafted piece features intricate woodwork, beveled glass doors, and authentic brass fittings that evoke colonial-era elegance.",
+    "price": 135000,
+    "images": [
+      "https://images.unsplash.com/photo-1538688525198-9b88f6f53126?w=800&q=80"
+    ],
+    "dimensions": {
+      "width": 120,
+      "height": 200,
+      "depth": 45
+    },
+    "material": "Rosewood",
+    "color": "Deep Burgundy",
+    "finish": "French Polish",
+    "weight": 110,
+    "features": [
+      "Beveled glass doors",
+      "Authentic brass hardware",
+      "Built-in lighting ready",
+      "Adjustable glass shelves",
+      "Lock and key included"
+    ],
+    "isBestSeller": true,
+    "isNew": false,
+    "inStock": true,
+    "rating": 5,
+    "reviews": 19,
+    "createdAt": "2024-04-01T00:00:00Z"
+  }
+]

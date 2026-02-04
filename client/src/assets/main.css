@@ -1,0 +1,229 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom CSS Variables for theming */
+:root {
+  --deep-oak: #4B3621;
+  --oak-light: #6B5344;
+  --oak-dark: #3A2A19;
+  --warm-white: #FAF8F5;
+  --cream: #F5F0E8;
+  --gold-accent: #C9A961;
+}
+
+/* Base styles */
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  background-color: var(--warm-white);
+  color: var(--deep-oak);
+  line-height: 1.6;
+}
+
+/* Custom PrimeVue overrides for brand consistency */
+.p-button {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+}
+
+.p-button.p-button-primary {
+  background: var(--deep-oak);
+  border-color: var(--deep-oak);
+}
+
+.p-button.p-button-primary:hover {
+  background: var(--oak-light);
+  border-color: var(--oak-light);
+}
+
+.p-button.p-button-outlined {
+  color: var(--deep-oak);
+  border-color: var(--deep-oak);
+}
+
+.p-button.p-button-outlined:hover {
+  background: var(--deep-oak);
+  color: white;
+}
+
+/* Hero Section styles */
+.hero-gradient {
+  background: linear-gradient(135deg, rgba(75, 54, 33, 0.95) 0%, rgba(58, 42, 25, 0.9) 100%);
+}
+
+/* Card hover effects */
+.product-card {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.product-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px rgba(75, 54, 33, 0.15);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--cream);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--oak-light);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--deep-oak);
+}
+
+/* Typography */
+.font-serif {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+/* Carousel customization */
+.p-carousel .p-carousel-indicators .p-carousel-indicator.p-highlight button {
+  background-color: var(--deep-oak);
+}
+
+/* DataView customization */
+.p-dataview .p-dataview-content {
+  background: transparent;
+}
+
+/* Dialog customization */
+.p-dialog .p-dialog-header {
+  background: var(--deep-oak);
+  color: white;
+}
+
+.p-dialog .p-dialog-header .p-dialog-header-icon {
+  color: white;
+}
+
+/* Input focus styles */
+.p-inputtext:focus {
+  border-color: var(--deep-oak);
+  box-shadow: 0 0 0 2px rgba(75, 54, 33, 0.2);
+}
+
+/* Dropdown customization */
+.p-dropdown:not(.p-disabled).p-focus {
+  border-color: var(--deep-oak);
+  box-shadow: 0 0 0 2px rgba(75, 54, 33, 0.2);
+}
+
+/* DataTable customization */
+.p-datatable .p-datatable-header {
+  background: var(--cream);
+  border-color: var(--cream);
+}
+
+.p-datatable .p-datatable-thead > tr > th {
+  background: var(--cream);
+  color: var(--deep-oak);
+  font-weight: 600;
+}
+
+/* Tag customization */
+.p-tag.p-tag-success {
+  background: #22c55e;
+}
+
+.p-tag.p-tag-warning {
+  background: var(--gold-accent);
+}
+
+/* Animation classes */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.6s ease-out forwards;
+}
+
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.animate-slide-in-left {
+  animation: slideInLeft 0.6s ease-out forwards;
+}
+
+/* Stagger animation delays */
+.delay-100 { animation-delay: 100ms; }
+.delay-200 { animation-delay: 200ms; }
+.delay-300 { animation-delay: 300ms; }
+.delay-400 { animation-delay: 400ms; }
+.delay-500 { animation-delay: 500ms; }
+
+/* Image zoom effect */
+.image-zoom {
+  overflow: hidden;
+}
+
+.image-zoom img {
+  transition: transform 0.5s ease;
+}
+
+.image-zoom:hover img {
+  transform: scale(1.1);
+}
+
+/* Premium badge */
+.premium-badge {
+  background: linear-gradient(135deg, var(--gold-accent) 0%, #D4AF37 100%);
+  color: var(--oak-dark);
+}
+
+/* Section divider */
+.section-divider {
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--deep-oak), transparent);
+}
+
+/* Footer gradient */
+.footer-gradient {
+  background: linear-gradient(180deg, var(--oak-dark) 0%, #2A1F14 100%);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .hero-text {
+    font-size: 2.5rem;
+  }
+}
+
+/* Loading skeleton animation */
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+.skeleton-shimmer {
+  background: linear-gradient(90deg, var(--cream) 25%, var(--warm-white) 50%, var(--cream) 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+}
