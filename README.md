@@ -11,6 +11,7 @@ A modern, rich UI e-commerce and catalog website for Dambulu Furniture Shop Gall
 Dambulu Furniture Shop has been crafting premium furniture in Galle, Sri Lanka since 1975. This website showcases our collection of handcrafted furniture with a modern, user-friendly interface.
 
 **Business Details:**
+
 - 📍 **Address:** No 379, Dangedara, Galle, Sri Lanka
 - 📞 **Phone:** +94 77 742 4127
 - 🏆 **Established:** 1975 (50+ years of excellence)
@@ -19,6 +20,7 @@ Dambulu Furniture Shop has been crafting premium furniture in Galle, Sri Lanka s
 ## ✨ Features
 
 ### Public Website
+
 - **Hero Section** - Eye-catching landing with key value propositions
 - **Best Sellers Carousel** - Showcase popular products using PrimeVue Carousel
 - **Product Gallery** - Filterable products with PrimeVue DataView
@@ -28,6 +30,7 @@ Dambulu Furniture Shop has been crafting premium furniture in Galle, Sri Lanka s
 - **Contact** - Contact form, map, and FAQ
 
 ### Admin Dashboard
+
 - **Product Management** - PrimeVue DataTable with search and filter
 - **Add/Edit Products** - Form with FileUpload for images
 - **Statistics** - Overview cards with key metrics
@@ -35,6 +38,7 @@ Dambulu Furniture Shop has been crafting premium furniture in Galle, Sri Lanka s
 ## 🛠️ Tech Stack
 
 ### Frontend
+
 - **Vue.js 3** - Composition API
 - **PrimeVue** - Premium UI component library (Aura theme)
 - **Tailwind CSS** - Utility-first CSS framework
@@ -42,11 +46,13 @@ Dambulu Furniture Shop has been crafting premium furniture in Galle, Sri Lanka s
 - **Axios** - HTTP client
 
 ### Backend
+
 - **Express.js** - Node.js web framework
 - **Multer** - File upload handling
 - **UUID** - Unique ID generation
 
 ### Design
+
 - **Theme:** Modern Wood & Minimalist
 - **Primary Color:** Deep Oak (#4B3621)
 - **Accent Color:** Warm White (#FAF8F5)
@@ -98,42 +104,50 @@ dambulu-furnitures/
 ## 🚀 Getting Started
 
 ### Prerequisites
-- Node.js 18+ 
+
+- Node.js 18+
 - npm or yarn
 
 ### Installation
 
 1. **Clone the repository**
+
    ```bash
    cd dambulu-furnitures
    ```
 
 2. **Install all dependencies**
+
    ```bash
    npm run install:all
    ```
+
    Or install separately:
+
    ```bash
    # Root dependencies
    npm install
-   
+
    # Client dependencies
    cd client && npm install
-   
+
    # Server dependencies
    cd ../server && npm install
    ```
 
 3. **Start development servers**
+
    ```bash
    # From root directory - starts both client and server
    npm run dev
    ```
+
    Or start separately:
+
    ```bash
    # Terminal 1 - Backend (port 5000)
    cd server && npm run dev
-   
+
    # Terminal 2 - Frontend (port 3000)
    cd client && npm run dev
    ```
@@ -144,37 +158,39 @@ dambulu-furnitures/
 
 ## 📡 API Endpoints
 
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| GET | `/api/products` | Get all products (with filters) |
-| GET | `/api/products/bestsellers` | Get best selling products |
-| GET | `/api/products/:id` | Get single product |
-| POST | `/api/products` | Create new product |
-| PUT | `/api/products/:id` | Update product |
-| DELETE | `/api/products/:id` | Delete product |
-| POST | `/api/quotes` | Submit quote request |
-| POST | `/api/contact` | Submit contact form |
-| GET | `/api/health` | Health check |
+| Method | Endpoint                    | Description                     |
+| ------ | --------------------------- | ------------------------------- |
+| GET    | `/api/products`             | Get all products (with filters) |
+| GET    | `/api/products/bestsellers` | Get best selling products       |
+| GET    | `/api/products/:id`         | Get single product              |
+| POST   | `/api/products`             | Create new product              |
+| PUT    | `/api/products/:id`         | Update product                  |
+| DELETE | `/api/products/:id`         | Delete product                  |
+| POST   | `/api/quotes`               | Submit quote request            |
+| POST   | `/api/contact`              | Submit contact form             |
+| GET    | `/api/health`               | Health check                    |
 
 ### Query Parameters for GET /api/products
+
 - `category` - Filter by category code
 - `search` - Search in name/description
 - `sort` - Sort by: `newest`, `price_asc`, `price_desc`, `bestseller`, `rating`
 
 ## 🎨 Product Categories
 
-| Category | Code |
-|----------|------|
-| Bedroom Sets | `bedroom` |
-| Sofas | `sofas` |
-| Almirahs | `almirahs` |
-| Dining Tables | `dining` |
-| Veranda Chairs | `veranda` |
-| Custom Interior | `custom` |
+| Category        | Code       |
+| --------------- | ---------- |
+| Bedroom Sets    | `bedroom`  |
+| Sofas           | `sofas`    |
+| Almirahs        | `almirahs` |
+| Dining Tables   | `dining`   |
+| Veranda Chairs  | `veranda`  |
+| Custom Interior | `custom`   |
 
 ## 🔐 Admin Access
 
 Access the admin dashboard at `/admin` to:
+
 - View all products in a DataTable
 - Add new products with image upload
 - Edit existing products
@@ -184,6 +200,7 @@ Access the admin dashboard at `/admin` to:
 ## 📱 Responsive Design
 
 The website is fully responsive and optimized for:
+
 - Desktop (1920px+)
 - Laptop (1024px - 1919px)
 - Tablet (768px - 1023px)

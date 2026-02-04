@@ -2,8 +2,8 @@
   <section class="relative min-h-[90vh] flex items-center overflow-hidden">
     <!-- Background Image with Overlay -->
     <div class="absolute inset-0 z-0">
-      <img 
-        src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=1920&q=80" 
+      <img
+        src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=1920&q=80"
         alt="Elegant furniture showroom"
         class="w-full h-full object-cover"
       />
@@ -19,39 +19,51 @@
       <div class="grid lg:grid-cols-2 gap-12 items-center">
         <!-- Text Content -->
         <div class="text-warm-white">
-          <div class="inline-flex items-center gap-2 bg-warm-white/10 backdrop-blur-sm px-4 py-2 rounded-full mb-6 animate-fade-in-up">
+          <div
+            class="inline-flex items-center gap-2 bg-warm-white/10 backdrop-blur-sm px-4 py-2 rounded-full mb-6 animate-fade-in-up"
+          >
             <i class="pi pi-verified text-gold-accent"></i>
             <span class="text-sm font-medium">Established Since 1975</span>
           </div>
-          
-          <h1 class="font-serif text-5xl md:text-6xl lg:text-7xl font-bold leading-tight mb-6 animate-fade-in-up delay-100">
-            Crafting <span class="text-gold-accent">Timeless</span><br/>
+
+          <h1
+            class="font-serif text-5xl md:text-6xl lg:text-7xl font-bold leading-tight mb-6 animate-fade-in-up delay-100"
+          >
+            Crafting
+            <span class="text-gold-accent">Timeless</span>
+            <br />
             Furniture Pieces
           </h1>
-          
-          <p class="text-xl text-cream/90 mb-8 max-w-lg leading-relaxed animate-fade-in-up delay-200">
-            Experience the art of premium woodworking with our handcrafted furniture. 
-            Each piece is a masterpiece backed by our <strong>10-year warranty</strong>.
+
+          <p
+            class="text-xl text-cream/90 mb-8 max-w-lg leading-relaxed animate-fade-in-up delay-200"
+          >
+            Experience the art of premium woodworking with our handcrafted furniture. Each piece is
+            a masterpiece backed by our
+            <strong>10-year warranty</strong>
+            .
           </p>
 
           <div class="flex flex-wrap gap-4 animate-fade-in-up delay-300">
-            <Button 
-              label="Explore Collection" 
-              icon="pi pi-arrow-right" 
+            <Button
+              label="Explore Collection"
+              icon="pi pi-arrow-right"
               iconPos="right"
               class="p-button-lg bg-gold-accent border-gold-accent hover:bg-yellow-600"
               @click="$router.push('/products')"
             />
-            <Button 
-              label="Request Custom Design" 
-              icon="pi pi-palette" 
+            <Button
+              label="Request Custom Design"
+              icon="pi pi-palette"
               class="p-button-lg p-button-outlined border-warm-white text-warm-white hover:bg-warm-white/10"
               @click="$router.push('/contact')"
             />
           </div>
 
           <!-- Stats -->
-          <div class="grid grid-cols-3 gap-6 mt-12 pt-8 border-t border-warm-white/20 animate-fade-in-up delay-400">
+          <div
+            class="grid grid-cols-3 gap-6 mt-12 pt-8 border-t border-warm-white/20 animate-fade-in-up delay-400"
+          >
             <div>
               <p class="text-4xl font-serif font-bold text-gold-accent">50+</p>
               <p class="text-cream/70 text-sm">Years of Excellence</p>
@@ -69,10 +81,12 @@
 
         <!-- Featured Product Card -->
         <div class="hidden lg:block animate-fade-in-up delay-500">
-          <div class="bg-warm-white/10 backdrop-blur-md rounded-3xl p-6 border border-warm-white/20">
+          <div
+            class="bg-warm-white/10 backdrop-blur-md rounded-3xl p-6 border border-warm-white/20"
+          >
             <div class="relative rounded-2xl overflow-hidden mb-4">
-              <img 
-                src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=600&q=80" 
+              <img
+                src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=600&q=80"
                 alt="Featured Sofa"
                 class="w-full h-72 object-cover"
               />
@@ -86,8 +100,8 @@
               <div>
                 <span class="text-gold-accent text-2xl font-bold">Rs. 185,000</span>
               </div>
-              <Button 
-                icon="pi pi-arrow-right" 
+              <Button
+                icon="pi pi-arrow-right"
                 class="p-button-rounded bg-gold-accent border-gold-accent"
                 @click="$router.push('/products/1')"
               />
@@ -107,5 +121,4 @@
   </section>
 </template>
 
-<script setup>
-</script>
+<script setup></script>

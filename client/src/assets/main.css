@@ -4,12 +4,12 @@
 
 /* Custom CSS Variables for theming */
 :root {
-  --deep-oak: #4B3621;
-  --oak-light: #6B5344;
-  --oak-dark: #3A2A19;
-  --warm-white: #FAF8F5;
-  --cream: #F5F0E8;
-  --gold-accent: #C9A961;
+  --deep-oak: #4b3621;
+  --oak-light: #6b5344;
+  --oak-dark: #3a2a19;
+  --warm-white: #faf8f5;
+  --cream: #f5f0e8;
+  --gold-accent: #c9a961;
 }
 
 /* Base styles */
@@ -169,11 +169,21 @@ body {
 }
 
 /* Stagger animation delays */
-.delay-100 { animation-delay: 100ms; }
-.delay-200 { animation-delay: 200ms; }
-.delay-300 { animation-delay: 300ms; }
-.delay-400 { animation-delay: 400ms; }
-.delay-500 { animation-delay: 500ms; }
+.delay-100 {
+  animation-delay: 100ms;
+}
+.delay-200 {
+  animation-delay: 200ms;
+}
+.delay-300 {
+  animation-delay: 300ms;
+}
+.delay-400 {
+  animation-delay: 400ms;
+}
+.delay-500 {
+  animation-delay: 500ms;
+}
 
 /* Image zoom effect */
 .image-zoom {
@@ -190,7 +200,7 @@ body {
 
 /* Premium badge */
 .premium-badge {
-  background: linear-gradient(135deg, var(--gold-accent) 0%, #D4AF37 100%);
+  background: linear-gradient(135deg, var(--gold-accent) 0%, #d4af37 100%);
   color: var(--oak-dark);
 }
 
@@ -202,7 +212,7 @@ body {
 
 /* Footer gradient */
 .footer-gradient {
-  background: linear-gradient(180deg, var(--oak-dark) 0%, #2A1F14 100%);
+  background: linear-gradient(180deg, var(--oak-dark) 0%, #2a1f14 100%);
 }
 
 /* Responsive adjustments */

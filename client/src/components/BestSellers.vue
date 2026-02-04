@@ -16,11 +16,11 @@
       </div>
 
       <!-- Carousel -->
-      <Carousel 
+      <Carousel
         v-else
-        :value="products" 
-        :numVisible="3" 
-        :numScroll="1" 
+        :value="products"
+        :numVisible="3"
+        :numScroll="1"
         :responsiveOptions="responsiveOptions"
         :autoplayInterval="5000"
         circular
@@ -31,18 +31,22 @@
             <div class="product-card bg-warm-white rounded-2xl overflow-hidden shadow-lg">
               <!-- Image -->
               <div class="relative image-zoom">
-                <img 
-                  :src="slotProps.data.images?.[0] || 'https://via.placeholder.com/400x300'" 
+                <img
+                  :src="slotProps.data.images?.[0] || 'https://via.placeholder.com/400x300'"
                   :alt="slotProps.data.name"
                   class="w-full h-64 object-cover"
                 />
                 <div class="absolute top-4 left-4 flex gap-2">
-                  <Tag v-if="slotProps.data.isBestSeller" value="Best Seller" class="premium-badge" />
+                  <Tag
+                    v-if="slotProps.data.isBestSeller"
+                    value="Best Seller"
+                    class="premium-badge"
+                  />
                   <Tag v-if="slotProps.data.isNew" value="New" severity="success" />
                 </div>
                 <div class="absolute top-4 right-4">
-                  <Button 
-                    icon="pi pi-heart" 
+                  <Button
+                    icon="pi pi-heart"
                     class="p-button-rounded p-button-text bg-warm-white/80 hover:bg-warm-white"
                   />
                 </div>
@@ -61,7 +65,9 @@
                 </p>
                 <div class="flex items-center mb-4">
                   <Rating :modelValue="slotProps.data.rating" :readonly="true" :cancel="false" />
-                  <span class="text-sm text-oak-light ml-2">({{ slotProps.data.reviews || 0 }})</span>
+                  <span class="text-sm text-oak-light ml-2">
+                    ({{ slotProps.data.reviews || 0 }})
+                  </span>
                 </div>
                 <div class="flex justify-between items-center">
                   <div>
@@ -69,9 +75,9 @@
                       Rs. {{ formatPrice(slotProps.data.price) }}
                     </span>
                   </div>
-                  <Button 
-                    label="View" 
-                    icon="pi pi-eye" 
+                  <Button
+                    label="View"
+                    icon="pi pi-eye"
                     class="p-button-sm"
                     @click="$router.push(`/products/${slotProps.data.id}`)"
                   />
@@ -84,9 +90,9 @@
 
       <!-- View All Button -->
       <div class="text-center mt-8">
-        <Button 
-          label="View All Products" 
-          icon="pi pi-arrow-right" 
+        <Button
+          label="View All Products"
+          icon="pi pi-arrow-right"
           iconPos="right"
           class="p-button-lg p-button-outlined"
           @click="$router.push('/products')"
@@ -97,32 +103,32 @@
 </template>
 
 <script setup>
-import { ref, onMounted } from 'vue'
-import { productService } from '@/services/api'
+import { productService } from '@/services/api';
+import { onMounted, ref } from 'vue';
 
-const products = ref([])
-const loading = ref(true)
+const products = ref([]);
+const loading = ref(true);
 
 const responsiveOptions = ref([
   { breakpoint: '1400px', numVisible: 3, numScroll: 1 },
   { breakpoint: '1024px', numVisible: 2, numScroll: 1 },
-  { breakpoint: '768px', numVisible: 1, numScroll: 1 }
-])
+  { breakpoint: '768px', numVisible: 1, numScroll: 1 },
+]);
 
 const formatPrice = (price) => {
-  return new Intl.NumberFormat('en-LK').format(price)
-}
+  return new Intl.NumberFormat('en-LK').format(price);
+};
 
 onMounted(async () => {
   try {
-    const data = await productService.getBestSellers()
-    products.value = data
+    const data = await productService.getBestSellers();
+    products.value = data;
   } catch (error) {
-    console.error('Error fetching best sellers:', error)
+    console.error('Error fetching best sellers:', error);
   } finally {
-    loading.value = false
+    loading.value = false;
   }
-})
+});
 </script>
 
 <style scoped>

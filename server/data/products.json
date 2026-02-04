@@ -187,9 +187,7 @@
     "shortDescription": "Premium L-shaped executive desk with integrated cable management",
     "description": "Make a statement in your office with our Executive Office Desk. This L-shaped desk combines functionality with elegance, featuring integrated cable management, lockable drawers, and a spacious work surface.",
     "price": 125000,
-    "images": [
-      "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?w=800&q=80"
-    ],
+    "images": ["https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?w=800&q=80"],
     "dimensions": {
       "width": 180,
       "height": 75,
@@ -221,9 +219,7 @@
     "shortDescription": "Sleek entertainment unit with hidden storage and floating design",
     "description": "Elevate your living room with our Modern TV Console. This wall-mounted unit features a floating design, ample hidden storage, and cable management system for a clean, contemporary look.",
     "price": 78000,
-    "images": [
-      "https://images.unsplash.com/photo-1556228453-efd6c1ff04f6?w=800&q=80"
-    ],
+    "images": ["https://images.unsplash.com/photo-1556228453-efd6c1ff04f6?w=800&q=80"],
     "dimensions": {
       "width": 200,
       "height": 45,
@@ -255,9 +251,7 @@
     "shortDescription": "Handcrafted display cabinet with glass doors and brass fittings",
     "description": "Showcase your treasures in our Antique Reproduction Cabinet. This meticulously handcrafted piece features intricate woodwork, beveled glass doors, and authentic brass fittings that evoke colonial-era elegance.",
     "price": 135000,
-    "images": [
-      "https://images.unsplash.com/photo-1538688525198-9b88f6f53126?w=800&q=80"
-    ],
+    "images": ["https://images.unsplash.com/photo-1538688525198-9b88f6f53126?w=800&q=80"],
     "dimensions": {
       "width": 120,
       "height": 200,

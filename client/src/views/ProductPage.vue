@@ -31,8 +31,8 @@
           <div class="grid lg:grid-cols-2 gap-12">
             <!-- Product Images -->
             <div>
-              <Galleria 
-                :value="productImages" 
+              <Galleria
+                :value="productImages"
                 :numVisible="4"
                 :thumbnailsPosition="'bottom'"
                 :showItemNavigators="true"
@@ -41,16 +41,16 @@
                 containerClass="rounded-2xl overflow-hidden shadow-lg"
               >
                 <template #item="slotProps">
-                  <img 
-                    :src="slotProps.item" 
-                    :alt="product.name" 
+                  <img
+                    :src="slotProps.item"
+                    :alt="product.name"
                     class="w-full h-[500px] object-cover"
                   />
                 </template>
                 <template #thumbnail="slotProps">
-                  <img 
-                    :src="slotProps.item" 
-                    :alt="product.name" 
+                  <img
+                    :src="slotProps.item"
+                    :alt="product.name"
                     class="w-20 h-20 object-cover rounded-lg"
                   />
                 </template>
@@ -97,7 +97,11 @@
               <div class="mb-8">
                 <h3 class="font-semibold text-deep-oak mb-3">Key Features:</h3>
                 <ul class="space-y-2">
-                  <li v-for="(feature, index) in product.features" :key="index" class="flex items-center gap-2">
+                  <li
+                    v-for="(feature, index) in product.features"
+                    :key="index"
+                    class="flex items-center gap-2"
+                  >
                     <i class="pi pi-check-circle text-gold-accent"></i>
                     <span>{{ feature }}</span>
                   </li>
@@ -125,19 +129,19 @@
 
               <!-- Actions -->
               <div class="flex flex-wrap gap-4 mb-8">
-                <Button 
-                  label="Request Quote" 
-                  icon="pi pi-send" 
+                <Button
+                  label="Request Quote"
+                  icon="pi pi-send"
                   class="p-button-lg flex-1"
                   @click="quoteDialogVisible = true"
                 />
-                <Button 
-                  icon="pi pi-heart" 
+                <Button
+                  icon="pi pi-heart"
                   class="p-button-lg p-button-outlined"
                   v-tooltip.top="'Add to Wishlist'"
                 />
-                <Button 
-                  icon="pi pi-share-alt" 
+                <Button
+                  icon="pi pi-share-alt"
                   class="p-button-lg p-button-outlined"
                   v-tooltip.top="'Share'"
                   @click="shareProduct"
@@ -172,15 +176,17 @@
           <TabView>
             <TabPanel header="Description">
               <div class="prose max-w-none">
-                <p class="text-oak-light leading-relaxed">{{ product.fullDescription || product.description }}</p>
-                
+                <p class="text-oak-light leading-relaxed">
+                  {{ product.fullDescription || product.description }}
+                </p>
+
                 <h3 class="font-serif text-2xl font-bold text-deep-oak mt-8 mb-4">Craftsmanship</h3>
                 <p class="text-oak-light leading-relaxed">
-                  Each piece from Dambulu Furniture is handcrafted by our master artisans with over 
-                  50 years of combined experience. We use only the finest quality solid wood, 
+                  Each piece from Dambulu Furniture is handcrafted by our master artisans with over
+                  50 years of combined experience. We use only the finest quality solid wood,
                   sourced sustainably from local suppliers.
                 </p>
-                
+
                 <h3 class="font-serif text-2xl font-bold text-deep-oak mt-8 mb-4">Materials</h3>
                 <ul class="space-y-2">
                   <li class="flex items-center gap-2 text-oak-light">
@@ -198,7 +204,7 @@
                 </ul>
               </div>
             </TabPanel>
-            
+
             <TabPanel header="Specifications">
               <div class="grid md:grid-cols-2 gap-6">
                 <div class="space-y-4">
@@ -208,22 +214,32 @@
                   </div>
                   <div class="flex justify-between py-3 border-b border-gray-200">
                     <span class="text-oak-light">Material</span>
-                    <span class="font-semibold text-deep-oak">{{ product.material || 'Solid Wood' }}</span>
+                    <span class="font-semibold text-deep-oak">
+                      {{ product.material || 'Solid Wood' }}
+                    </span>
                   </div>
                   <div class="flex justify-between py-3 border-b border-gray-200">
                     <span class="text-oak-light">Finish</span>
-                    <span class="font-semibold text-deep-oak">{{ product.finish || 'Natural Lacquer' }}</span>
+                    <span class="font-semibold text-deep-oak">
+                      {{ product.finish || 'Natural Lacquer' }}
+                    </span>
                   </div>
                   <div class="flex justify-between py-3 border-b border-gray-200">
                     <span class="text-oak-light">Color</span>
-                    <span class="font-semibold text-deep-oak">{{ product.color || 'Natural Wood' }}</span>
+                    <span class="font-semibold text-deep-oak">
+                      {{ product.color || 'Natural Wood' }}
+                    </span>
                   </div>
                 </div>
                 <div class="space-y-4">
-                  <div v-if="product.dimensions" class="flex justify-between py-3 border-b border-gray-200">
+                  <div
+                    v-if="product.dimensions"
+                    class="flex justify-between py-3 border-b border-gray-200"
+                  >
                     <span class="text-oak-light">Dimensions (W×H×D)</span>
                     <span class="font-semibold text-deep-oak">
-                      {{ product.dimensions.width }} × {{ product.dimensions.height }} × {{ product.dimensions.depth }} cm
+                      {{ product.dimensions.width }} × {{ product.dimensions.height }} ×
+                      {{ product.dimensions.depth }} cm
                     </span>
                   </div>
                   <div class="flex justify-between py-3 border-b border-gray-200">
@@ -236,20 +252,22 @@
                   </div>
                   <div class="flex justify-between py-3 border-b border-gray-200">
                     <span class="text-oak-light">Assembly</span>
-                    <span class="font-semibold text-deep-oak">{{ product.assembly || 'Professional installation included' }}</span>
+                    <span class="font-semibold text-deep-oak">
+                      {{ product.assembly || 'Professional installation included' }}
+                    </span>
                   </div>
                 </div>
               </div>
             </TabPanel>
-            
+
             <TabPanel header="Warranty & Care">
               <div class="prose max-w-none">
                 <h3 class="font-serif text-2xl font-bold text-deep-oak mb-4">10-Year Warranty</h3>
                 <p class="text-oak-light leading-relaxed mb-6">
-                  All Dambulu Furniture products come with our comprehensive 10-year warranty, 
+                  All Dambulu Furniture products come with our comprehensive 10-year warranty,
                   covering manufacturing defects and structural integrity issues.
                 </p>
-                
+
                 <h3 class="font-serif text-2xl font-bold text-deep-oak mb-4">Care Instructions</h3>
                 <ul class="space-y-3">
                   <li class="flex items-start gap-2 text-oak-light">
@@ -285,17 +303,17 @@
           <h2 class="font-serif text-3xl font-bold text-deep-oak mb-8 text-center">
             You May Also Like
           </h2>
-          
+
           <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            <div 
-              v-for="relProduct in relatedProducts" 
+            <div
+              v-for="relProduct in relatedProducts"
               :key="relProduct.id"
               class="product-card bg-white rounded-2xl overflow-hidden shadow-lg cursor-pointer"
               @click="$router.push(`/products/${relProduct.id}`)"
             >
               <div class="relative image-zoom">
-                <img 
-                  :src="relProduct.images?.[0] || 'https://via.placeholder.com/400x300'" 
+                <img
+                  :src="relProduct.images?.[0] || 'https://via.placeholder.com/400x300'"
                   :alt="relProduct.name"
                   class="w-full h-48 object-cover"
                 />
@@ -304,9 +322,7 @@
                 <h3 class="font-serif text-lg font-semibold text-deep-oak mb-2 line-clamp-1">
                   {{ relProduct.name }}
                 </h3>
-                <p class="text-deep-oak font-bold">
-                  Rs. {{ formatPrice(relProduct.price) }}
-                </p>
+                <p class="text-deep-oak font-bold">Rs. {{ formatPrice(relProduct.price) }}</p>
               </div>
             </div>
           </div>
@@ -318,7 +334,9 @@
     <div v-else class="container mx-auto px-4 py-20 text-center">
       <i class="pi pi-exclamation-circle text-6xl text-gray-300 mb-4"></i>
       <h2 class="text-2xl font-bold text-deep-oak mb-2">Product Not Found</h2>
-      <p class="text-oak-light mb-6">The product you're looking for doesn't exist or has been removed.</p>
+      <p class="text-oak-light mb-6">
+        The product you're looking for doesn't exist or has been removed.
+      </p>
       <Button label="Browse Products" icon="pi pi-arrow-left" @click="$router.push('/products')" />
     </div>
 
@@ -328,42 +346,42 @@
 </template>
 
 <script setup>
-import { ref, computed, onMounted, watch } from 'vue'
-import { useRoute, useRouter } from 'vue-router'
-import { useToast } from 'primevue/usetoast'
-import { productService } from '@/services/api'
-import QuoteDialog from '@/components/QuoteDialog.vue'
+import QuoteDialog from '@/components/QuoteDialog.vue';
+import { productService } from '@/services/api';
+import { useToast } from 'primevue/usetoast';
+import { computed, onMounted, ref, watch } from 'vue';
+import { useRoute, useRouter } from 'vue-router';
 
-const route = useRoute()
-const router = useRouter()
-const toast = useToast()
+const route = useRoute();
+const router = useRouter();
+const toast = useToast();
 
-const product = ref(null)
-const relatedProducts = ref([])
-const loading = ref(true)
-const quoteDialogVisible = ref(false)
+const product = ref(null);
+const relatedProducts = ref([]);
+const loading = ref(true);
+const quoteDialogVisible = ref(false);
 
 const breadcrumbItems = computed(() => [
   { label: 'Products', to: '/products' },
-  { label: product.value?.name || 'Loading...' }
-])
+  { label: product.value?.name || 'Loading...' },
+]);
 
 const productImages = computed(() => {
   if (product.value?.images?.length) {
-    return product.value.images
+    return product.value.images;
   }
-  return ['https://via.placeholder.com/800x600?text=No+Image']
-})
+  return ['https://via.placeholder.com/800x600?text=No+Image'];
+});
 
 const galleriaResponsive = ref([
   { breakpoint: '1024px', numVisible: 4 },
   { breakpoint: '768px', numVisible: 3 },
-  { breakpoint: '560px', numVisible: 2 }
-])
+  { breakpoint: '560px', numVisible: 2 },
+]);
 
 const formatPrice = (price) => {
-  return new Intl.NumberFormat('en-LK').format(price)
-}
+  return new Intl.NumberFormat('en-LK').format(price);
+};
 
 const shareProduct = async () => {
   if (navigator.share) {
@@ -371,51 +389,55 @@ const shareProduct = async () => {
       await navigator.share({
         title: product.value.name,
         text: product.value.shortDescription,
-        url: window.location.href
-      })
+        url: window.location.href,
+      });
     } catch (err) {
-      console.log('Share cancelled')
+      console.log('Share cancelled');
     }
   } else {
     // Fallback: copy to clipboard
-    await navigator.clipboard.writeText(window.location.href)
+    await navigator.clipboard.writeText(window.location.href);
     toast.add({
       severity: 'success',
       summary: 'Link Copied!',
       detail: 'Product link copied to clipboard',
-      life: 3000
-    })
+      life: 3000,
+    });
   }
-}
+};
 
 const fetchProduct = async (id) => {
-  loading.value = true
+  loading.value = true;
   try {
-    product.value = await productService.getById(id)
-    
-    // Fetch related products
-    const allProducts = await productService.getAll()
-    relatedProducts.value = allProducts
-      .filter(p => p.categoryCode === product.value.categoryCode && p.id !== product.value.id)
-      .slice(0, 4)
-  } catch (error) {
-    console.error('Error fetching product:', error)
-    product.value = null
-  } finally {
-    loading.value = false
-  }
-}
+    product.value = await productService.getById(id);
 
-watch(() => route.params.id, (newId) => {
-  if (newId) {
-    fetchProduct(newId)
-    window.scrollTo(0, 0)
+    // Fetch related products
+    const allProducts = await productService.getAll();
+    relatedProducts.value = allProducts
+      .filter((p) => p.categoryCode === product.value.categoryCode && p.id !== product.value.id)
+      .slice(0, 4);
+  } catch (error) {
+    console.error('Error fetching product:', error);
+    product.value = null;
+  } finally {
+    loading.value = false;
   }
-}, { immediate: true })
+};
+
+watch(
+  () => route.params.id,
+  (newId) => {
+    if (newId) {
+      fetchProduct(newId);
+      window.scrollTo(0, 0);
+    }
+  },
+  { immediate: true },
+);
 
 onMounted(() => {
-  fetchProduct(route.params.id)
-})
+  fetchProduct(route.params.id);
+});
 </script>
 
 <style scoped>
