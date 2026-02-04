@@ -1,0 +1,51 @@
+name: Deploy Dambulu Furniture
+
+on:
+  push:
+    branches: [main, development]
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: 📥 Checkout code
+        uses: actions/checkout@v4
+
+      - name: 🟢 Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: 🚀 Deploy to VPS
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets.VPS_HOST }}
+          username: ${{ secrets.VPS_USER }}
+          key: ${{ secrets.VPS_SSH_KEY }}
+          script: |
+            echo "🚀 Starting deployment..."
+            
+            # Navigate to project
+            cd /var/www/dambulu-furnitures
+            
+            # Pull latest changes
+            echo "📥 Pulling latest changes..."
+            git fetch --all
+            git checkout ${{ github.ref_name }}
+            git pull origin ${{ github.ref_name }}
+            
+            # Update backend
+            echo "🔧 Updating backend..."
+            cd server
+            npm install --production
+            pm2 restart dambulu-furniture-api
+            
+            # Build frontend
+            echo "🎨 Building frontend..."
+            cd ../client
+            npm install
+            npm run build
+            
+            echo "✅ Deployment complete!"
