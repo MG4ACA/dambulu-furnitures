@@ -14,13 +14,25 @@
           </span>
         </div>
         <div class="flex items-center gap-4">
-          <a href="https://facebook.com" target="_blank" class="text-oak-light hover:text-deep-oak transition-colors">
+          <a
+            href="https://facebook.com"
+            target="_blank"
+            class="text-oak-light hover:text-deep-oak transition-colors"
+          >
             <i class="pi pi-facebook"></i>
           </a>
-          <a href="https://instagram.com" target="_blank" class="text-oak-light hover:text-deep-oak transition-colors">
+          <a
+            href="https://instagram.com"
+            target="_blank"
+            class="text-oak-light hover:text-deep-oak transition-colors"
+          >
             <i class="pi pi-instagram"></i>
           </a>
-          <a href="https://wa.me/94777424127" target="_blank" class="text-oak-light hover:text-deep-oak transition-colors">
+          <a
+            href="https://wa.me/94777424127"
+            target="_blank"
+            class="text-oak-light hover:text-deep-oak transition-colors"
+          >
             <i class="pi pi-whatsapp"></i>
           </a>
         </div>
@@ -30,9 +42,7 @@
       <nav class="flex items-center justify-between py-4">
         <!-- Logo -->
         <router-link to="/" class="flex items-center gap-3">
-          <div class="w-12 h-12 bg-deep-oak rounded-lg flex items-center justify-center">
-            <span class="text-warm-white font-serif text-2xl font-bold">D</span>
-          </div>
+          <img src="/logo.png" alt="Dambulu Furniture" class="h-12 w-auto" />
           <div class="hidden sm:block">
             <h1 class="font-serif text-xl font-bold text-deep-oak leading-tight">Dambulu</h1>
             <p class="text-xs text-oak-light">Furniture Shop Galle</p>
@@ -41,30 +51,32 @@
 
         <!-- Desktop Menu -->
         <div class="hidden lg:flex items-center gap-8">
-          <router-link 
-            v-for="item in menuItems" 
+          <router-link
+            v-for="item in menuItems"
             :key="item.path"
             :to="item.path"
             class="text-deep-oak hover:text-gold-accent transition-colors font-medium relative group"
           >
             {{ item.label }}
-            <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-gold-accent transition-all group-hover:w-full"></span>
+            <span
+              class="absolute bottom-0 left-0 w-0 h-0.5 bg-gold-accent transition-all group-hover:w-full"
+            ></span>
           </router-link>
         </div>
 
         <!-- CTA Button -->
         <div class="hidden lg:flex items-center gap-4">
-          <Button 
-            label="Request Quote" 
-            icon="pi pi-send" 
+          <Button
+            label="Request Quote"
+            icon="pi pi-send"
             class="p-button-primary"
             @click="$router.push('/contact')"
           />
         </div>
 
         <!-- Mobile Menu Button -->
-        <Button 
-          icon="pi pi-bars" 
+        <Button
+          icon="pi pi-bars"
           class="lg:hidden p-button-text p-button-rounded"
           @click="mobileMenuOpen = true"
         />
@@ -75,16 +87,14 @@
     <Sidebar v-model:visible="mobileMenuOpen" position="right" class="w-80">
       <template #header>
         <div class="flex items-center gap-3">
-          <div class="w-10 h-10 bg-deep-oak rounded-lg flex items-center justify-center">
-            <span class="text-warm-white font-serif text-xl font-bold">D</span>
-          </div>
+          <img src="/logo.png" alt="Dambulu Furniture" class="h-10 w-auto" />
           <span class="font-serif text-lg font-bold text-deep-oak">Menu</span>
         </div>
       </template>
-      
+
       <div class="flex flex-col gap-2 mt-4">
-        <router-link 
-          v-for="item in menuItems" 
+        <router-link
+          v-for="item in menuItems"
           :key="item.path"
           :to="item.path"
           class="flex items-center gap-3 p-3 rounded-lg hover:bg-cream transition-colors text-deep-oak"
@@ -93,9 +103,9 @@
           <i :class="item.icon" class="text-gold-accent"></i>
           {{ item.label }}
         </router-link>
-        
+
         <Divider />
-        
+
         <div class="p-3 bg-cream rounded-lg">
           <p class="text-sm text-oak-light mb-2">Contact Us</p>
           <p class="flex items-center gap-2 text-deep-oak">
@@ -107,12 +117,15 @@
             No 379, Dangedara, Galle
           </p>
         </div>
-        
-        <Button 
-          label="Request Quote" 
-          icon="pi pi-send" 
+
+        <Button
+          label="Request Quote"
+          icon="pi pi-send"
           class="p-button-primary mt-4"
-          @click="mobileMenuOpen = false; $router.push('/contact')"
+          @click="
+            mobileMenuOpen = false;
+            $router.push('/contact');
+          "
         />
       </div>
     </Sidebar>
@@ -120,14 +133,14 @@
 </template>
 
 <script setup>
-import { ref } from 'vue'
+import { ref } from 'vue';
 
-const mobileMenuOpen = ref(false)
+const mobileMenuOpen = ref(false);
 
 const menuItems = [
   { label: 'Home', path: '/', icon: 'pi pi-home' },
   { label: 'Products', path: '/products', icon: 'pi pi-th-large' },
   { label: 'About Us', path: '/about', icon: 'pi pi-info-circle' },
-  { label: 'Contact', path: '/contact', icon: 'pi pi-envelope' }
-]
+  { label: 'Contact', path: '/contact', icon: 'pi pi-envelope' },
+];
 </script>

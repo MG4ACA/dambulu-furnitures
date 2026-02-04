@@ -6,9 +6,7 @@
         <!-- Brand Column -->
         <div class="lg:col-span-1">
           <div class="flex items-center gap-3 mb-6">
-            <div class="w-14 h-14 bg-warm-white rounded-lg flex items-center justify-center">
-              <span class="text-deep-oak font-serif text-3xl font-bold">D</span>
-            </div>
+            <img src="/logo.png" alt="Dambulu Furniture" class="h-14 w-auto" />
             <div>
               <h3 class="font-serif text-2xl font-bold">Dambulu</h3>
               <p class="text-cream/80 text-sm">Furniture Shop Galle</p>
