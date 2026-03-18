@@ -13,7 +13,7 @@
         <Breadcrumb :home="{ icon: 'pi pi-home', to: '/' }" :model="breadcrumbItems" class="mb-4" />
         <h1 class="font-serif text-4xl md:text-6xl font-bold text-warm-white mb-4">Our Story</h1>
         <p class="text-cream/80 max-w-2xl text-lg">
-          Five decades of craftsmanship, tradition, and excellence in furniture making
+          Specializing in custom-made melamine furniture for homes and offices
         </p>
       </div>
     </section>
@@ -23,24 +23,25 @@
       <div class="container mx-auto px-4">
         <div class="grid lg:grid-cols-2 gap-12 items-center">
           <div>
-            <span class="inline-block text-gold-accent font-medium mb-2">Established 1975</span>
+            <span class="inline-block text-gold-accent font-medium mb-2">Established Today</span>
             <h2 class="font-serif text-4xl md:text-5xl font-bold text-deep-oak mb-6">
-              A Legacy of Excellence
+              Custom-Made Melamine Furniture Excellence
             </h2>
             <p class="text-oak-light text-lg leading-relaxed mb-6">
-              Dambulu Furniture Shop was founded in 1975 in the heart of Galle, Sri Lanka, with a
-              simple vision: to create furniture that combines traditional Sri Lankan craftsmanship
-              with timeless design.
+              Rimaco Furniture (PVT) LTD is a Sri Lankan manufacturer and distributor specializing
+              in custom-made melamine furniture for homes and offices. We are primarily known for
+              our bespoke wardrobes, TV consoles, and dressing units, and have completed projects
+              for several prominent Sri Lankan personalities.
             </p>
             <p class="text-oak-light text-lg leading-relaxed mb-6">
-              What started as a small workshop has grown into one of the most respected furniture
-              establishments in the Southern Province, serving generations of families who value
-              quality and authenticity.
+              Our showroom is located at 340 Lake Rd, Boralesgamuwa 10280, near the Boralesgamuwa
+              tank. We offer comprehensive customization options with high-quality melamine boards
+              (18mm and 15mm) available in gloss or matte finishes.
             </p>
             <p class="text-oak-light text-lg leading-relaxed">
-              Today, we continue the tradition passed down through three generations, combining
-              time-honored woodworking techniques with modern design sensibilities to create pieces
-              that will be cherished for years to come.
+              From custom wardrobes and living room furniture to bedroom units and office solutions,
+              we deliver tailored designs that perfectly fit your space and lifestyle. Free delivery
+              is provided within Colombo areas, with convenient delivery options across the island.
             </p>
           </div>
           <div class="relative">
@@ -49,11 +50,9 @@
               alt="Our Workshop"
               class="rounded-2xl shadow-2xl"
             />
-            <div
-              class="absolute -bottom-6 -left-6 bg-gold-accent text-deep-oak p-6 rounded-2xl shadow-xl"
-            >
-              <p class="text-5xl font-serif font-bold">50+</p>
-              <p class="font-medium">Years of Excellence</p>
+            <div>
+              <p class="text-5xl font-serif font-bold">Custom</p>
+              <p class="font-medium">Design Solutions</p>
             </div>
           </div>
         </div>
@@ -77,10 +76,10 @@
             >
               <i class="pi pi-star text-3xl text-gold-accent"></i>
             </div>
-            <h3 class="font-serif text-xl font-bold text-deep-oak mb-3">Quality First</h3>
+            <h3 class="font-serif text-xl font-bold text-deep-oak mb-3">Premium Materials</h3>
             <p class="text-oak-light">
-              We use only the finest quality solid wood and materials, ensuring every piece meets
-              our exacting standards.
+              High-quality 18mm and 15mm melamine boards with gloss and matte finish options for
+              durability and style.
             </p>
           </div>
           <div class="bg-warm-white rounded-2xl p-8 text-center shadow-lg">
@@ -89,10 +88,10 @@
             >
               <i class="pi pi-users text-3xl text-gold-accent"></i>
             </div>
-            <h3 class="font-serif text-xl font-bold text-deep-oak mb-3">Family Values</h3>
+            <h3 class="font-serif text-xl font-bold text-deep-oak mb-3">Custom Designs</h3>
             <p class="text-oak-light">
-              As a family business, we treat every customer like family, providing personalized
-              service and genuine care.
+              Wardrobes, TV consoles, dressing units, and office furniture tailored to your exact
+              specifications and space.
             </p>
           </div>
           <div class="bg-warm-white rounded-2xl p-8 text-center shadow-lg">
@@ -101,10 +100,10 @@
             >
               <i class="pi pi-cog text-3xl text-gold-accent"></i>
             </div>
-            <h3 class="font-serif text-xl font-bold text-deep-oak mb-3">Master Craftsmanship</h3>
+            <h3 class="font-serif text-xl font-bold text-deep-oak mb-3">Expert Craftsmanship</h3>
             <p class="text-oak-light">
-              Our artisans have decades of experience, using traditional techniques passed down
-              through generations.
+              Professional installation and finishing with attention to detail. We've served several
+              prominent Sri Lankan celebrities.
             </p>
           </div>
           <div class="bg-warm-white rounded-2xl p-8 text-center shadow-lg">
@@ -113,10 +112,10 @@
             >
               <i class="pi pi-shield text-3xl text-gold-accent"></i>
             </div>
-            <h3 class="font-serif text-xl font-bold text-deep-oak mb-3">10-Year Warranty</h3>
+            <h3 class="font-serif text-xl font-bold text-deep-oak mb-3">Convenient Delivery</h3>
             <p class="text-oak-light">
-              We stand behind every piece with our comprehensive 10-year warranty, a testament to
-              our confidence in quality.
+              Free delivery within Colombo areas with affordable rates across the island. Reliable
+              and timely service.
             </p>
           </div>
         </div>

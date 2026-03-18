@@ -1,9 +1,9 @@
 module.exports = {
   apps: [
     {
-      name: 'dambulu-furniture-api',
+      name: 'rimaco-furniture-api',
       script: 'server.js',
-      cwd: '/var/www/dambulu-furnitures/server',
+      cwd: '/var/www/rimaco-furniture/server',
       instances: 1,
       autorestart: true,
       watch: false,
@@ -16,9 +16,9 @@ module.exports = {
         NODE_ENV: 'production',
         PORT: 5000,
       },
-      error_file: '/var/log/pm2/dambulu-furniture-error.log',
-      out_file: '/var/log/pm2/dambulu-furniture-out.log',
-      log_file: '/var/log/pm2/dambulu-furniture-combined.log',
+      error_file: '/var/log/pm2/rimaco-furniture-error.log',
+      out_file: '/var/log/pm2/rimaco-furniture-out.log',
+      log_file: '/var/log/pm2/rimaco-furniture-combined.log',
       time: true,
     },
   ],

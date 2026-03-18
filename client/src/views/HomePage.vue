@@ -88,12 +88,12 @@
           <div>
             <span class="inline-block text-gold-accent font-medium mb-2">Our Story</span>
             <h2 class="font-serif text-4xl md:text-5xl font-bold text-deep-oak mb-6">
-              Crafting Excellence Since 1975
+              Custom-Made Melamine Furniture
             </h2>
             <p class="text-oak-light text-lg mb-6 leading-relaxed">
-              For over five decades, Dambulu Furniture Shop has been the cornerstone of premium
-              furniture craftsmanship in Galle. Our master artisans blend traditional Sri Lankan
-              woodworking techniques with modern design sensibilities.
+              Rimaco Furniture (PVT) LTD is a Sri Lankan manufacturer specializing in custom-made
+              melamine furniture for homes and offices. We create tailored wardrobes, TV consoles,
+              dressing units, and office solutions that perfectly fit your space and lifestyle.
             </p>
             <ul class="space-y-4 mb-8">
               <li class="flex items-center gap-3">
@@ -102,7 +102,7 @@
                 >
                   <i class="pi pi-check text-gold-accent"></i>
                 </div>
-                <span class="text-deep-oak">Premium quality solid wood construction</span>
+                <span class="text-deep-oak">High-quality 18mm and 15mm melamine boards</span>
               </li>
               <li class="flex items-center gap-3">
                 <div
@@ -110,7 +110,7 @@
                 >
                   <i class="pi pi-check text-gold-accent"></i>
                 </div>
-                <span class="text-deep-oak">10-year comprehensive warranty</span>
+                <span class="text-deep-oak">Custom design solutions for any space</span>
               </li>
               <li class="flex items-center gap-3">
                 <div
@@ -118,7 +118,7 @@
                 >
                   <i class="pi pi-check text-gold-accent"></i>
                 </div>
-                <span class="text-deep-oak">Custom interior design services</span>
+                <span class="text-deep-oak">Professional installation & finishing</span>
               </li>
               <li class="flex items-center gap-3">
                 <div
@@ -126,7 +126,7 @@
                 >
                   <i class="pi pi-check text-gold-accent"></i>
                 </div>
-                <span class="text-deep-oak">Island-wide delivery & installation</span>
+                <span class="text-deep-oak">Free delivery within Colombo</span>
               </li>
             </ul>
             <Button
@@ -232,7 +232,7 @@ const testimonials = ref([
   {
     name: 'Samanthi Fernando',
     location: 'Kandy',
-    text: 'Dambulu Furniture delivered beyond our expectations. The custom dining table is a masterpiece. Highly recommend their services!',
+    text: 'Rimaco Furniture delivered beyond our expectations. The custom wardrobe is a masterpiece. Highly recommend their services!',
   },
   {
     name: 'Rohan Silva',

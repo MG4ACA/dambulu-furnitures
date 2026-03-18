@@ -182,9 +182,9 @@
 
                 <h3 class="font-serif text-2xl font-bold text-deep-oak mt-8 mb-4">Craftsmanship</h3>
                 <p class="text-oak-light leading-relaxed">
-                  Each piece from Dambulu Furniture is handcrafted by our master artisans with over
-                  50 years of combined experience. We use only the finest quality solid wood,
-                  sourced sustainably from local suppliers.
+                  Each piece from Rimaco Furniture is custom-made using high-quality melamine boards
+                  with professional design and finishing. Our team specializes in tailored solutions
+                  for homes and offices.
                 </p>
 
                 <h3 class="font-serif text-2xl font-bold text-deep-oak mt-8 mb-4">Materials</h3>
@@ -262,10 +262,11 @@
 
             <TabPanel header="Warranty & Care">
               <div class="prose max-w-none">
-                <h3 class="font-serif text-2xl font-bold text-deep-oak mb-4">10-Year Warranty</h3>
+                <h3 class="font-serif text-2xl font-bold text-deep-oak mb-4">Quality Guarantee</h3>
                 <p class="text-oak-light leading-relaxed mb-6">
-                  All Dambulu Furniture products come with our comprehensive 10-year warranty,
-                  covering manufacturing defects and structural integrity issues.
+                  All Rimaco Furniture products are crafted with premium 18mm and 15mm melamine
+                  boards. We use high-grade finishes available in gloss or matte options for
+                  durability and aesthetic appeal.
                 </p>
 
                 <h3 class="font-serif text-2xl font-bold text-deep-oak mb-4">Care Instructions</h3>

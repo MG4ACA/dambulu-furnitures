@@ -1,7 +1,7 @@
 {
-  "name": "dambulu-furnitures",
+  "name": "rimaco-furniture",
   "version": "1.0.0",
-  "description": "Dambulu Furniture Shop Galle - E-commerce Website",
+  "description": "Rimaco Furniture - Custom-made Melamine Furniture for Homes and Offices",
   "scripts": {
     "dev": "concurrently \"npm run dev:client\" \"npm run dev:server\"",
     "dev:client": "cd client && npm run dev",

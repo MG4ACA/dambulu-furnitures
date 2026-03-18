@@ -96,9 +96,9 @@
                   <h3 class="font-serif text-xl font-bold text-deep-oak mb-1">
                     Visit Our Showroom
                   </h3>
-                  <p class="text-oak-light">No 379, Dangedara, Galle, Sri Lanka</p>
+                  <p class="text-oak-light">340 Lake Rd, Boralesgamuwa 10280, Sri Lanka</p>
                   <a
-                    href="https://maps.google.com/?q=No+379+Dangedara+Galle+Sri+Lanka"
+                    href="https://maps.google.com/?q=340+Lake+Rd+Boralesgamuwa+Sri+Lanka"
                     target="_blank"
                     class="text-gold-accent hover:underline text-sm mt-2 inline-block"
                   >
@@ -115,8 +115,8 @@
                 </div>
                 <div>
                   <h3 class="font-serif text-xl font-bold text-deep-oak mb-1">Call Us</h3>
-                  <a href="tel:+94777424127" class="text-oak-light hover:text-gold-accent text-lg">
-                    +94 77 742 4127
+                  <a href="tel:+94112312408" class="text-oak-light hover:text-gold-accent text-lg">
+                    +94 112 312 408
                   </a>
                   <p class="text-oak-light text-sm mt-1">Mon - Sat: 8:00 AM - 6:00 PM</p>
                 </div>
@@ -132,7 +132,7 @@
                   <h3 class="font-serif text-xl font-bold text-deep-oak mb-1">WhatsApp</h3>
                   <p class="text-oak-light">Quick responses on WhatsApp</p>
                   <a
-                    href="https://wa.me/94777424127"
+                    href="https://wa.me/94764496913"
                     target="_blank"
                     class="text-gold-accent hover:underline text-sm mt-2 inline-block"
                   >
@@ -151,7 +151,7 @@
                   <h3 class="font-serif text-xl font-bold text-deep-oak mb-1">Follow Us</h3>
                   <p class="text-oak-light">Stay updated on our latest designs</p>
                   <a
-                    href="https://facebook.com"
+                    href="https://facebook.com/rimacofurniture"
                     target="_blank"
                     class="text-gold-accent hover:underline text-sm mt-2 inline-block"
                   >

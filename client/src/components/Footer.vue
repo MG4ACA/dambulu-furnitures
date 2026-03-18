@@ -6,33 +6,33 @@
         <!-- Brand Column -->
         <div class="lg:col-span-1">
           <div class="flex items-center gap-3 mb-6">
-            <img src="/logo.png" alt="Dambulu Furniture" class="h-14 w-auto" />
+            <img src="/logo.png" alt="Rimaco Furniture" class="h-14 w-auto" />
             <div>
-              <h3 class="font-serif text-2xl font-bold">Dambulu</h3>
-              <p class="text-cream/80 text-sm">Furniture Shop Galle</p>
+              <h3 class="font-serif text-2xl font-bold">Rimaco</h3>
+              <p class="text-cream/80 text-sm">Custom Furniture</p>
             </div>
           </div>
           <p class="text-cream/70 mb-6 leading-relaxed">
-            Crafting premium furniture with passion since 1975. Every piece tells a story of Sri
-            Lankan craftsmanship and timeless elegance.
+            Sri Lankan manufacturer of custom-made melamine furniture for homes and offices.
+            Specializing in wardrobes, TV consoles, and dressing units with high-quality finishes.
           </p>
           <div class="flex gap-4">
             <a
-              href="https://facebook.com"
+              href="https://facebook.com/rimacofurniture"
               target="_blank"
               class="w-10 h-10 bg-warm-white/10 rounded-full flex items-center justify-center hover:bg-gold-accent transition-colors"
             >
               <i class="pi pi-facebook"></i>
             </a>
             <a
-              href="https://instagram.com"
+              href="https://instagram.com/rimacofurniture"
               target="_blank"
               class="w-10 h-10 bg-warm-white/10 rounded-full flex items-center justify-center hover:bg-gold-accent transition-colors"
             >
               <i class="pi pi-instagram"></i>
             </a>
             <a
-              href="https://wa.me/94777424127"
+              href="https://wa.me/94764496913"
               target="_blank"
               class="w-10 h-10 bg-warm-white/10 rounded-full flex items-center justify-center hover:bg-gold-accent transition-colors"
             >
@@ -121,7 +121,7 @@
               </div>
               <div>
                 <p class="font-medium">Address</p>
-                <p class="text-cream/70 text-sm">No 379, Dangedara, Galle, Sri Lanka</p>
+                <p class="text-cream/70 text-sm">340 Lake Rd, Boralesgamuwa 10280, Sri Lanka</p>
               </div>
             </div>
             <div class="flex items-start gap-3">
@@ -133,10 +133,10 @@
               <div>
                 <p class="font-medium">Phone</p>
                 <a
-                  href="tel:+94777424127"
+                  href="tel:+94112312408"
                   class="text-cream/70 text-sm hover:text-gold-accent transition-colors"
                 >
-                  +94 77 742 4127
+                  +94 112 312 408
                 </a>
               </div>
             </div>
@@ -190,7 +190,7 @@
         <div
           class="flex flex-col md:flex-row justify-between items-center gap-4 text-cream/60 text-sm"
         >
-          <p>&copy; {{ currentYear }} Dambulu Furniture Shop Galle. All rights reserved.</p>
+          <p>&copy; {{ currentYear }} Rimaco Furniture (PVT) LTD. All rights reserved.</p>
           <p>
             Crafted with
             <i class="pi pi-heart text-gold-accent"></i>

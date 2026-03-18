@@ -6,11 +6,11 @@
         <div class="flex items-center gap-4 text-oak-light">
           <span class="flex items-center gap-1">
             <i class="pi pi-phone text-xs"></i>
-            +94 77 742 4127
+            +94 112 312 408
           </span>
           <span class="flex items-center gap-1">
             <i class="pi pi-map-marker text-xs"></i>
-            No 379, Dangedara, Galle
+            340 Lake Rd, Boralesgamuwa
           </span>
         </div>
         <div class="flex items-center gap-4">
@@ -29,7 +29,7 @@
             <i class="pi pi-instagram"></i>
           </a>
           <a
-            href="https://wa.me/94777424127"
+            href="https://wa.me/94764496913"
             target="_blank"
             class="text-oak-light hover:text-deep-oak transition-colors"
           >
@@ -42,10 +42,10 @@
       <nav class="flex items-center justify-between py-4">
         <!-- Logo -->
         <router-link to="/" class="flex items-center gap-3">
-          <img src="/logo.png" alt="Dambulu Furniture" class="h-12 w-auto" />
+          <img src="/logo.png" alt="Rimaco Furniture" class="h-12 w-auto" />
           <div class="hidden sm:block">
-            <h1 class="font-serif text-xl font-bold text-deep-oak leading-tight">Dambulu</h1>
-            <p class="text-xs text-oak-light">Furniture Shop Galle</p>
+            <h1 class="font-serif text-xl font-bold text-deep-oak leading-tight">Rimaco</h1>
+            <p class="text-xs text-oak-light">Custom Furniture</p>
           </div>
         </router-link>
 
@@ -87,7 +87,7 @@
     <Sidebar v-model:visible="mobileMenuOpen" position="right" class="w-80">
       <template #header>
         <div class="flex items-center gap-3">
-          <img src="/logo.png" alt="Dambulu Furniture" class="h-10 w-auto" />
+          <img src="/logo.png" alt="Rimaco Furniture" class="h-10 w-auto" />
           <span class="font-serif text-lg font-bold text-deep-oak">Menu</span>
         </div>
       </template>
@@ -110,11 +110,11 @@
           <p class="text-sm text-oak-light mb-2">Contact Us</p>
           <p class="flex items-center gap-2 text-deep-oak">
             <i class="pi pi-phone text-gold-accent"></i>
-            +94 77 742 4127
+            +94 112 312 408
           </p>
           <p class="flex items-center gap-2 text-deep-oak mt-1 text-sm">
             <i class="pi pi-map-marker text-gold-accent"></i>
-            No 379, Dangedara, Galle
+            340 Lake Rd, Boralesgamuwa
           </p>
         </div>
 
