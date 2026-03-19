@@ -94,11 +94,34 @@
                 </div>
                 <div>
                   <h3 class="font-serif text-xl font-bold text-deep-oak mb-1">
-                    Visit Our Showroom
+                    Kelaniya Showroom (Main)
                   </h3>
-                  <p class="text-oak-light">340 Lake Rd, Boralesgamuwa 10280, Sri Lanka</p>
+                  <p class="text-oak-light text-sm">342/21 Udana Mawatha, Biyagama Road</p>
+                  <p class="text-oak-light text-sm">Gonawala, Kelaniya 11600</p>
+                  <p class="text-oak-light text-sm mt-2 font-medium">+94 72 759 2810</p>
                   <a
-                    href="https://maps.google.com/?q=340+Lake+Rd+Boralesgamuwa+Sri+Lanka"
+                    href="https://maps.google.com/?q=342/21+Udana+Mawatha+Gonawala+Kelaniya+11600"
+                    target="_blank"
+                    class="text-gold-accent hover:underline text-sm mt-2 inline-block"
+                  >
+                    Get Directions →
+                  </a>
+                </div>
+              </div>
+
+              <div class="bg-cream rounded-2xl p-6 flex items-start gap-4">
+                <div
+                  class="w-14 h-14 bg-deep-oak rounded-xl flex items-center justify-center flex-shrink-0"
+                >
+                  <i class="pi pi-map-marker text-warm-white text-xl"></i>
+                </div>
+                <div>
+                  <h3 class="font-serif text-xl font-bold text-deep-oak mb-1">Negombo Showroom</h3>
+                  <p class="text-oak-light text-sm">616 Negombo - Colombo Main Rd</p>
+                  <p class="text-oak-light text-sm">Negombo 11500</p>
+                  <p class="text-oak-light text-sm mt-2 font-medium">+94 70 659 2815</p>
+                  <a
+                    href="https://maps.google.com/?q=616+Negombo+Colombo+Main+Rd+Negombo+11500"
                     target="_blank"
                     class="text-gold-accent hover:underline text-sm mt-2 inline-block"
                   >
@@ -115,10 +138,39 @@
                 </div>
                 <div>
                   <h3 class="font-serif text-xl font-bold text-deep-oak mb-1">Call Us</h3>
-                  <a href="tel:+94112312408" class="text-oak-light hover:text-gold-accent text-lg">
-                    +94 112 312 408
+                  <p class="text-oak-light text-sm mb-2">Kelaniya:</p>
+                  <a
+                    href="tel:+94727592810"
+                    class="text-oak-light hover:text-gold-accent text-lg font-medium block"
+                  >
+                    +94 72 759 2810
                   </a>
-                  <p class="text-oak-light text-sm mt-1">Mon - Sat: 8:00 AM - 6:00 PM</p>
+                  <p class="text-oak-light text-sm mt-3 mb-2">Negombo:</p>
+                  <a
+                    href="tel:+94706592815"
+                    class="text-oak-light hover:text-gold-accent text-lg font-medium block"
+                  >
+                    +94 70 659 2815
+                  </a>
+                  <p class="text-oak-light text-sm mt-3">8:00 AM - 8:00 PM (Daily)</p>
+                </div>
+              </div>
+
+              <div class="bg-cream rounded-2xl p-6 flex items-start gap-4">
+                <div
+                  class="w-14 h-14 bg-deep-oak rounded-xl flex items-center justify-center flex-shrink-0"
+                >
+                  <i class="pi pi-envelope text-warm-white text-xl"></i>
+                </div>
+                <div>
+                  <h3 class="font-serif text-xl font-bold text-deep-oak mb-1">Email</h3>
+                  <a
+                    href="mailto:senelanka1@gmail.com"
+                    class="text-oak-light hover:text-gold-accent text-lg"
+                  >
+                    senelanka1@gmail.com
+                  </a>
+                  <p class="text-oak-light text-sm mt-2">We reply within 24 hours</p>
                 </div>
               </div>
 
@@ -130,13 +182,21 @@
                 </div>
                 <div>
                   <h3 class="font-serif text-xl font-bold text-deep-oak mb-1">WhatsApp</h3>
-                  <p class="text-oak-light">Quick responses on WhatsApp</p>
+                  <p class="text-oak-light text-sm">Quick responses on WhatsApp</p>
                   <a
-                    href="https://wa.me/94764496913"
+                    href="https://wa.me/94727592810"
                     target="_blank"
                     class="text-gold-accent hover:underline text-sm mt-2 inline-block"
                   >
-                    Start Chat →
+                    Kelaniya: +94 72 759 2810 →
+                  </a>
+                  <br />
+                  <a
+                    href="https://wa.me/94706592815"
+                    target="_blank"
+                    class="text-gold-accent hover:underline text-sm mt-2 inline-block"
+                  >
+                    Negombo: +94 70 659 2815 →
                   </a>
                 </div>
               </div>
@@ -149,13 +209,13 @@
                 </div>
                 <div>
                   <h3 class="font-serif text-xl font-bold text-deep-oak mb-1">Follow Us</h3>
-                  <p class="text-oak-light">Stay updated on our latest designs</p>
+                  <p class="text-oak-light text-sm">Stay updated on our latest designs</p>
                   <a
-                    href="https://facebook.com/rimacofurniture"
+                    href="https://instagram.com/sene_lankafurniture"
                     target="_blank"
                     class="text-gold-accent hover:underline text-sm mt-2 inline-block"
                   >
-                    Visit Facebook Page →
+                    Follow @sene_lankafurniture →
                   </a>
                 </div>
               </div>
@@ -168,17 +228,19 @@
                 Working Hours
               </h3>
               <div class="space-y-2">
-                <div class="flex justify-between">
-                  <span class="text-cream/80">Monday - Friday</span>
-                  <span class="font-medium">8:00 AM - 6:00 PM</span>
+                <div>
+                  <p class="font-semibold text-warm-white mb-2">Kelaniya Showroom:</p>
+                  <div class="flex justify-between pl-4">
+                    <span class="text-cream/80">Daily</span>
+                    <span class="font-medium">8:00 AM - 8:00 PM</span>
+                  </div>
                 </div>
-                <div class="flex justify-between">
-                  <span class="text-cream/80">Saturday</span>
-                  <span class="font-medium">8:00 AM - 5:00 PM</span>
-                </div>
-                <div class="flex justify-between">
-                  <span class="text-cream/80">Sunday</span>
-                  <span class="font-medium text-gold-accent">By Appointment</span>
+                <div class="mt-4">
+                  <p class="font-semibold text-warm-white mb-2">Negombo Showroom:</p>
+                  <div class="flex justify-between pl-4">
+                    <span class="text-cream/80">Daily</span>
+                    <span class="font-medium">9:00 AM - 7:30 PM</span>
+                  </div>
                 </div>
               </div>
             </div>
@@ -193,7 +255,7 @@
         <h2 class="font-serif text-3xl font-bold text-deep-oak mb-8 text-center">Find Us</h2>
         <div class="bg-white rounded-2xl shadow-lg overflow-hidden">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3967.4485!2d80.2!3d6.05!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNsKwMDMnMDAuMCJOIDgwwrAxMicwMC4wIkU!5e0!3m2!1sen!2slk!4v1600000000000!5m2!1sen!2slk"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.3845!2d80.63480!3d6.91640!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae24516cd5c7b11%3A0x37db2c9cc1bf34a0!2sSene%20Lanka%20Furniture%20-%20Kelaniya%20Showroom!5e0!3m2!1sen!2slk!4v1234567890"
             width="100%"
             height="450"
             style="border: 0"
@@ -276,32 +338,32 @@ const faqs = ref([
   {
     question: 'What is your delivery time?',
     answer:
-      'For ready-made furniture, delivery typically takes 3-7 days within Sri Lanka. Custom orders may take 4-8 weeks depending on complexity. We offer free delivery island-wide.',
+      'For ready-made teak furniture, delivery typically takes 3-7 days within Sri Lanka. Custom orders may take 4-8 weeks depending on complexity. We offer free delivery for Negombo and Kelaniya areas.',
   },
   {
     question: 'Do you offer custom furniture design?',
     answer:
-      'Yes! We specialize in custom furniture design. Our team will work with you from concept to completion to create pieces that perfectly match your vision and space requirements.',
+      'Yes! We specialize in custom teak furniture design. Our team will work with you from concept to completion to create pieces that perfectly match your vision and space requirements.',
   },
   {
     question: 'What is included in your 10-year warranty?',
     answer:
-      'Our comprehensive warranty covers manufacturing defects, structural integrity issues, and finish problems under normal use. It does not cover damage from misuse, accidents, or normal wear and tear.',
+      'Our comprehensive warranty covers manufacturing defects, structural integrity issues, and finish problems in teak wood structures under normal use. It does not cover damage from misuse, accidents, or normal wear and tear.',
   },
   {
     question: 'Can I visit your showroom without an appointment?',
     answer:
-      'Absolutely! Our showroom is open Monday through Saturday, 8 AM to 6 PM. Walk-ins are welcome. For Sunday visits, please call ahead to schedule an appointment.',
+      'Absolutely! Our Kelaniya showroom is open daily 8 AM to 8 PM, and our Negombo showroom is open 9 AM to 7:30 PM. Walk-ins are always welcome!',
   },
   {
     question: 'What types of wood do you use?',
     answer:
-      'We primarily work with premium teak, mahogany, jak wood, and other high-quality local hardwoods. All our wood is sustainably sourced and properly seasoned for durability.',
+      'We primarily work with premium teak, mango wood, and other high-quality hardwoods. All our wood is sustainably sourced, properly seasoned, and treated for durability. We offer various finishes including lacquer polish and natural finishes.',
   },
   {
     question: 'Do you offer interior design services?',
     answer:
-      'Yes, we provide complete interior design services including space planning, furniture selection, custom design, and installation. Contact us for a free consultation.',
+      'Yes, we provide complete interior design services including space planning, custom teak furniture selection, design consultation, and professional installation. Contact us for a free initial consultation.',
   },
 ]);
 

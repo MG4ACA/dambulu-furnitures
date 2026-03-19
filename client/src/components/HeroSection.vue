@@ -23,23 +23,23 @@
             class="inline-flex items-center gap-2 bg-warm-white/10 backdrop-blur-sm px-4 py-2 rounded-full mb-6 animate-fade-in-up"
           >
             <i class="pi pi-verified text-gold-accent"></i>
-            <span class="text-sm font-medium">Established Since 1975</span>
+            <span class="text-sm font-medium">Established Since 1996 • 28+ Years Excellence</span>
           </div>
 
           <h1
             class="font-serif text-5xl md:text-6xl lg:text-7xl font-bold leading-tight mb-6 animate-fade-in-up delay-100"
           >
-            Crafting
-            <span class="text-gold-accent">Timeless</span>
+            Premium
+            <span class="text-gold-accent">Teak Furniture</span>
             <br />
-            Furniture Pieces
+            Crafted for Life
           </h1>
 
           <p
             class="text-xl text-cream/90 mb-8 max-w-lg leading-relaxed animate-fade-in-up delay-200"
           >
-            Experience the art of premium woodworking with our handcrafted furniture. Each piece is
-            a masterpiece backed by our
+            Uncommon designs, creativity, and innovation combined with quality furniture at an
+            affordable price. Every piece backed by our
             <strong>10-year warranty</strong>
             .
           </p>

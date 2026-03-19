@@ -6,35 +6,39 @@
         <!-- Brand Column -->
         <div class="lg:col-span-1">
           <div class="flex items-center gap-3 mb-6">
-            <img src="/logo.png" alt="Rimaco Furniture" class="h-14 w-auto" />
+            <img src="/logo.png" alt="Sene Lanka Furniture" class="h-14 w-auto" />
             <div>
-              <h3 class="font-serif text-2xl font-bold">Rimaco</h3>
-              <p class="text-cream/80 text-sm">Custom Furniture</p>
+              <h3 class="font-serif text-2xl font-bold">Sene Lanka</h3>
+              <p class="text-cream/80 text-sm">Premium Teak Furniture</p>
             </div>
           </div>
           <p class="text-cream/70 mb-6 leading-relaxed">
-            Sri Lankan manufacturer of custom-made melamine furniture for homes and offices.
-            Specializing in wardrobes, TV consoles, and dressing units with high-quality finishes.
+            Sene Lanka Furniture - Established in 1996 with over 28 years of industry experience. We
+            specialize in high-quality teak wood furniture with custom-built options. Manufacturing
+            100% controlled from timber sourcing to final assembly.
           </p>
           <div class="flex gap-4">
             <a
-              href="https://facebook.com/rimacofurniture"
+              href="https://facebook.com/sene.lankafurniture"
               target="_blank"
               class="w-10 h-10 bg-warm-white/10 rounded-full flex items-center justify-center hover:bg-gold-accent transition-colors"
+              title="facebook.com/sene.lankafurniture"
             >
               <i class="pi pi-facebook"></i>
             </a>
             <a
-              href="https://instagram.com/rimacofurniture"
+              href="https://instagram.com/sene_lankafurniture"
               target="_blank"
               class="w-10 h-10 bg-warm-white/10 rounded-full flex items-center justify-center hover:bg-gold-accent transition-colors"
+              title="@sene_lankafurniture"
             >
               <i class="pi pi-instagram"></i>
             </a>
             <a
-              href="https://wa.me/94764496913"
+              href="https://wa.me/94727592810"
               target="_blank"
               class="w-10 h-10 bg-warm-white/10 rounded-full flex items-center justify-center hover:bg-gold-accent transition-colors"
+              title="WhatsApp"
             >
               <i class="pi pi-whatsapp"></i>
             </a>
@@ -121,7 +125,9 @@
               </div>
               <div>
                 <p class="font-medium">Address</p>
-                <p class="text-cream/70 text-sm">340 Lake Rd, Boralesgamuwa 10280, Sri Lanka</p>
+                <p class="text-cream/70 text-sm">
+                  342/21 Udana Mawatha, Biyagama Road, Gonawala, Kelaniya 11600
+                </p>
               </div>
             </div>
             <div class="flex items-start gap-3">
@@ -133,10 +139,26 @@
               <div>
                 <p class="font-medium">Phone</p>
                 <a
-                  href="tel:+94112312408"
+                  href="tel:+94727592810"
                   class="text-cream/70 text-sm hover:text-gold-accent transition-colors"
                 >
-                  +94 112 312 408
+                  +94 72 759 2810
+                </a>
+              </div>
+            </div>
+            <div class="flex items-start gap-3">
+              <div
+                class="w-10 h-10 bg-warm-white/10 rounded-lg flex items-center justify-center flex-shrink-0"
+              >
+                <i class="pi pi-envelope text-gold-accent"></i>
+              </div>
+              <div>
+                <p class="font-medium">Email</p>
+                <a
+                  href="mailto:senelanka1@gmail.com"
+                  class="text-cream/70 text-sm hover:text-gold-accent transition-colors"
+                >
+                  senelanka1@gmail.com
                 </a>
               </div>
             </div>
@@ -148,7 +170,7 @@
               </div>
               <div>
                 <p class="font-medium">Working Hours</p>
-                <p class="text-cream/70 text-sm">Mon - Sat: 8:00 AM - 6:00 PM</p>
+                <p class="text-cream/70 text-sm">8:00 AM - 8:00 PM (Daily)</p>
               </div>
             </div>
           </div>
@@ -162,23 +184,23 @@
         <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
           <div class="flex flex-col items-center">
             <i class="pi pi-verified text-3xl text-gold-accent mb-2"></i>
-            <p class="font-semibold">Since 1975</p>
-            <p class="text-cream/60 text-sm">50+ Years Legacy</p>
+            <p class="font-semibold">Since 1996</p>
+            <p class="text-cream/60 text-sm">28+ Years Legacy</p>
           </div>
           <div class="flex flex-col items-center">
             <i class="pi pi-shield text-3xl text-gold-accent mb-2"></i>
             <p class="font-semibold">10-Year Warranty</p>
-            <p class="text-cream/60 text-sm">Quality Guaranteed</p>
+            <p class="text-cream/60 text-sm">Teak Guaranteed</p>
           </div>
           <div class="flex flex-col items-center">
             <i class="pi pi-truck text-3xl text-gold-accent mb-2"></i>
             <p class="font-semibold">Free Delivery</p>
-            <p class="text-cream/60 text-sm">Island-wide</p>
+            <p class="text-cream/60 text-sm">Select Areas</p>
           </div>
           <div class="flex flex-col items-center">
             <i class="pi pi-star text-3xl text-gold-accent mb-2"></i>
-            <p class="font-semibold">Premium Quality</p>
-            <p class="text-cream/60 text-sm">Handcrafted Wood</p>
+            <p class="font-semibold">Customizable</p>
+            <p class="text-cream/60 text-sm">Custom Built</p>
           </div>
         </div>
       </div>
@@ -190,7 +212,7 @@
         <div
           class="flex flex-col md:flex-row justify-between items-center gap-4 text-cream/60 text-sm"
         >
-          <p>&copy; {{ currentYear }} Rimaco Furniture (PVT) LTD. All rights reserved.</p>
+          <p>&copy; {{ currentYear }} Sene Lanka Furniture. All rights reserved.</p>
           <p>
             Crafted with
             <i class="pi pi-heart text-gold-accent"></i>

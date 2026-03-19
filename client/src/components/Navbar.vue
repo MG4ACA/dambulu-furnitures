@@ -6,32 +6,35 @@
         <div class="flex items-center gap-4 text-oak-light">
           <span class="flex items-center gap-1">
             <i class="pi pi-phone text-xs"></i>
-            +94 112 312 408
+            +94 72 759 2810
           </span>
           <span class="flex items-center gap-1">
             <i class="pi pi-map-marker text-xs"></i>
-            340 Lake Rd, Boralesgamuwa
+            Kelaniya & Negombo Showrooms
           </span>
         </div>
         <div class="flex items-center gap-4">
           <a
-            href="https://facebook.com"
+            href="https://facebook.com/sene.lankafurniture"
             target="_blank"
             class="text-oak-light hover:text-deep-oak transition-colors"
+            title="facebook.com/sene.lankafurniture"
           >
             <i class="pi pi-facebook"></i>
           </a>
           <a
-            href="https://instagram.com"
+            href="https://instagram.com/sene_lankafurniture"
             target="_blank"
             class="text-oak-light hover:text-deep-oak transition-colors"
+            title="@sene_lankafurniture"
           >
             <i class="pi pi-instagram"></i>
           </a>
           <a
-            href="https://wa.me/94764496913"
+            href="https://wa.me/94727592810"
             target="_blank"
             class="text-oak-light hover:text-deep-oak transition-colors"
+            title="WhatsApp"
           >
             <i class="pi pi-whatsapp"></i>
           </a>
@@ -42,10 +45,10 @@
       <nav class="flex items-center justify-between py-4">
         <!-- Logo -->
         <router-link to="/" class="flex items-center gap-3">
-          <img src="/logo.png" alt="Rimaco Furniture" class="h-12 w-auto" />
+          <img src="/logo.png" alt="Sene Lanka Furniture" class="h-12 w-auto" />
           <div class="hidden sm:block">
-            <h1 class="font-serif text-xl font-bold text-deep-oak leading-tight">Rimaco</h1>
-            <p class="text-xs text-oak-light">Custom Furniture</p>
+            <h1 class="font-serif text-xl font-bold text-deep-oak leading-tight">Sene Lanka</h1>
+            <p class="text-xs text-oak-light">Premium Teak Furniture</p>
           </div>
         </router-link>
 
@@ -87,7 +90,7 @@
     <Sidebar v-model:visible="mobileMenuOpen" position="right" class="w-80">
       <template #header>
         <div class="flex items-center gap-3">
-          <img src="/logo.png" alt="Rimaco Furniture" class="h-10 w-auto" />
+          <img src="/logo.png" alt="Sene Lanka Furniture" class="h-10 w-auto" />
           <span class="font-serif text-lg font-bold text-deep-oak">Menu</span>
         </div>
       </template>
@@ -110,11 +113,11 @@
           <p class="text-sm text-oak-light mb-2">Contact Us</p>
           <p class="flex items-center gap-2 text-deep-oak">
             <i class="pi pi-phone text-gold-accent"></i>
-            +94 112 312 408
+            +94 72 759 2810
           </p>
           <p class="flex items-center gap-2 text-deep-oak mt-1 text-sm">
             <i class="pi pi-map-marker text-gold-accent"></i>
-            340 Lake Rd, Boralesgamuwa
+            Kelaniya Showroom
           </p>
         </div>
 

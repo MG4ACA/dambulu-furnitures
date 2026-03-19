@@ -88,12 +88,13 @@
           <div>
             <span class="inline-block text-gold-accent font-medium mb-2">Our Story</span>
             <h2 class="font-serif text-4xl md:text-5xl font-bold text-deep-oak mb-6">
-              Custom-Made Melamine Furniture
+              Premium Teak Wood Furniture
             </h2>
             <p class="text-oak-light text-lg mb-6 leading-relaxed">
-              Rimaco Furniture (PVT) LTD is a Sri Lankan manufacturer specializing in custom-made
-              melamine furniture for homes and offices. We create tailored wardrobes, TV consoles,
-              dressing units, and office solutions that perfectly fit your space and lifestyle.
+              Sene Lanka Furniture - Established in 1996 with over 28 years of industry experience. We specialize in high-quality teak wood furniture with custom-built options. Each piece is manufactured with 100% control from timber sourcing to final assembly.
+            </p>
+            <p class="text-oak-light text-lg mb-6 leading-relaxed">
+              Our commitment is simple: "Uncommon designs, creativity, and innovation" combined with "Quality furniture at an affordable price". We blend traditional Sri Lankan craftsmanship with modern design excellence.
             </p>
             <ul class="space-y-4 mb-8">
               <li class="flex items-center gap-3">
@@ -102,7 +103,7 @@
                 >
                   <i class="pi pi-check text-gold-accent"></i>
                 </div>
-                <span class="text-deep-oak">High-quality 18mm and 15mm melamine boards</span>
+                <span class="text-deep-oak">Premium teak wood with 10-year warranty</span>
               </li>
               <li class="flex items-center gap-3">
                 <div
@@ -110,7 +111,7 @@
                 >
                   <i class="pi pi-check text-gold-accent"></i>
                 </div>
-                <span class="text-deep-oak">Custom design solutions for any space</span>
+                <span class="text-deep-oak">Fully customizable sizes, colors & fabrics (HS & PE)</span>
               </li>
               <li class="flex items-center gap-3">
                 <div
@@ -118,7 +119,7 @@
                 >
                   <i class="pi pi-check text-gold-accent"></i>
                 </div>
-                <span class="text-deep-oak">Professional installation & finishing</span>
+                <span class="text-deep-oak">Multiple payment options with installment plans</span>
               </li>
               <li class="flex items-center gap-3">
                 <div
@@ -126,7 +127,7 @@
                 >
                   <i class="pi pi-check text-gold-accent"></i>
                 </div>
-                <span class="text-deep-oak">Free delivery within Colombo</span>
+                <span class="text-deep-oak">Free delivery in Negombo & Kelaniya</span>
               </li>
             </ul>
             <Button
@@ -140,7 +141,61 @@
         </div>
       </div>
     </section>
+    <!-- Features Section -->
+    <section class="py-20 bg-cream">
+      <div class="container mx-auto px-4">
+        <div class="text-center mb-12">
+          <span class="inline-block text-gold-accent font-medium mb-2">Why Choose Us</span>
+          <h2 class="font-serif text-4xl md:text-5xl font-bold text-deep-oak mb-4">
+            Our Key Features
+          </h2>
+          <p class="text-oak-light max-w-2xl mx-auto">
+            Experience excellence with our premium teak furniture
+          </p>
+        </div>
 
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <!-- Feature 1: Warranty -->
+          <div class="bg-white rounded-2xl p-8 text-center shadow-lg hover:shadow-2xl transition-shadow">
+            <div
+              class="w-16 h-16 bg-gold-accent/20 rounded-full flex items-center justify-center mx-auto mb-6"
+            >
+              <i class="pi pi-shield text-3xl text-gold-accent"></i>
+            </div>
+            <h3 class="font-serif text-xl font-bold text-deep-oak mb-3">10-Year Warranty</h3>
+            <p class="text-oak-light">
+              All teak furniture structures come with a comprehensive 10-year warranty. We stand behind the quality of our craftsmanship.
+            </p>
+          </div>
+
+          <!-- Feature 2: Customization -->
+          <div class="bg-white rounded-2xl p-8 text-center shadow-lg hover:shadow-2xl transition-shadow">
+            <div
+              class="w-16 h-16 bg-gold-accent/20 rounded-full flex items-center justify-center mx-auto mb-6"
+            >
+              <i class="pi pi-pencil text-3xl text-gold-accent"></i>
+            </div>
+            <h3 class="font-serif text-xl font-bold text-deep-oak mb-3">Fully Customizable</h3>
+            <p class="text-oak-light">
+              Custom sizes, colors, and fabrics (HS & PE materials). Design your furniture exactly as you envision it.
+            </p>
+          </div>
+
+          <!-- Feature 3: Payment Methods -->
+          <div class="bg-white rounded-2xl p-8 text-center shadow-lg hover:shadow-2xl transition-shadow">
+            <div
+              class="w-16 h-16 bg-gold-accent/20 rounded-full flex items-center justify-center mx-auto mb-6"
+            >
+              <i class="pi pi-wallet text-3xl text-gold-accent"></i>
+            </div>
+            <h3 class="font-serif text-xl font-bold text-deep-oak mb-3">Flexible Payments</h3>
+            <p class="text-oak-light">
+              Cash on delivery, bank transfers, card payments (Visa/Mastercard/Amex), and installment plans via credit cards.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- Testimonials Section -->
     <section class="py-20 bg-deep-oak">
       <div class="container mx-auto px-4">
@@ -209,7 +264,7 @@
             label="Call Now"
             icon="pi pi-phone"
             class="p-button-lg p-button-outlined"
-            @click="window.open('tel:+94777424127')"
+            @click="window.open('tel:+94727592810')"
           />
         </div>
       </div>
@@ -227,22 +282,22 @@ const testimonials = ref([
   {
     name: 'Nimal Perera',
     location: 'Colombo',
-    text: 'Absolutely stunning craftsmanship! Our bedroom set has transformed our home. The quality is exceptional and worth every rupee.',
+    text: 'Absolutely stunning teak craftsmanship! Our furniture has transformed our home. The quality is exceptional and the warranty gives great peace of mind.',
   },
   {
     name: 'Samanthi Fernando',
     location: 'Kandy',
-    text: 'Rimaco Furniture delivered beyond our expectations. The custom wardrobe is a masterpiece. Highly recommend their services!',
+    text: 'Sene Lanka Furniture exceeded our expectations. The custom-built teak dining set is a masterpiece. Highly recommend their dedication to quality!',
   },
   {
     name: 'Rohan Silva',
     location: 'Galle',
-    text: "Being a local, I've known them for years. Their commitment to quality and customer satisfaction is unmatched. True artisans!",
+    text: 'For over 28 years, they have delivered premium teak furniture. Their craftsmanship and customer service are unmatched. True artisans!',
   },
   {
     name: 'Kumari Jayawardena',
-    location: 'Matara',
-    text: 'The sofa set we ordered is simply beautiful. Comfortable, elegant, and built to last. Thank you for the wonderful service!',
+    location: 'Negombo',
+    text: 'The teak sofa set we ordered is simply beautiful and durable. Comfortable, elegant, and built to last. Thank you for the excellent service!',
   },
 ]);
 

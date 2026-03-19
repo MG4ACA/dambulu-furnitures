@@ -13,7 +13,7 @@
         <Breadcrumb :home="{ icon: 'pi pi-home', to: '/' }" :model="breadcrumbItems" class="mb-4" />
         <h1 class="font-serif text-4xl md:text-6xl font-bold text-warm-white mb-4">Our Story</h1>
         <p class="text-cream/80 max-w-2xl text-lg">
-          Specializing in custom-made melamine furniture for homes and offices
+          Premium teak wood furniture. Established 1996 with 28+ years of industry excellence
         </p>
       </div>
     </section>
@@ -23,25 +23,26 @@
       <div class="container mx-auto px-4">
         <div class="grid lg:grid-cols-2 gap-12 items-center">
           <div>
-            <span class="inline-block text-gold-accent font-medium mb-2">Established Today</span>
+            <span class="inline-block text-gold-accent font-medium mb-2">Established 1996</span>
             <h2 class="font-serif text-4xl md:text-5xl font-bold text-deep-oak mb-6">
-              Custom-Made Melamine Furniture Excellence
+              Premium Teak Wood Furniture Excellence
             </h2>
             <p class="text-oak-light text-lg leading-relaxed mb-6">
-              Rimaco Furniture (PVT) LTD is a Sri Lankan manufacturer and distributor specializing
-              in custom-made melamine furniture for homes and offices. We are primarily known for
-              our bespoke wardrobes, TV consoles, and dressing units, and have completed projects
-              for several prominent Sri Lankan personalities.
+              Sene Lanka Furniture is a Sri Lankan manufacturer and distributor specializing in
+              premium teak wood furniture for homes and offices. With over 28 years of industry
+              experience, we have earned a reputation for exceptional craftsmanship and quality.
             </p>
             <p class="text-oak-light text-lg leading-relaxed mb-6">
-              Our showroom is located at 340 Lake Rd, Boralesgamuwa 10280, near the Boralesgamuwa
-              tank. We offer comprehensive customization options with high-quality melamine boards
-              (18mm and 15mm) available in gloss or matte finishes.
+              Our facilities feature showrooms at Kelaniya (Main) and Negombo, showcasing our
+              extensive teak wood collections. We offer comprehensive customization options with
+              various teak finishes and fabric choices (HS and PE materials). Each piece is
+              manufactured with 100% control from timber sourcing to final assembly.
             </p>
             <p class="text-oak-light text-lg leading-relaxed">
-              From custom wardrobes and living room furniture to bedroom units and office solutions,
-              we deliver tailored designs that perfectly fit your space and lifestyle. Free delivery
-              is provided within Colombo areas, with convenient delivery options across the island.
+              From custom sofas and dining sets to bedroom suites and office furniture, we deliver
+              tailored designs that perfectly fit your space and lifestyle. Free delivery is
+              provided within specific areas including Negombo and Kelaniya, with convenient
+              delivery options across the island.
             </p>
           </div>
           <div class="relative">
@@ -76,10 +77,10 @@
             >
               <i class="pi pi-star text-3xl text-gold-accent"></i>
             </div>
-            <h3 class="font-serif text-xl font-bold text-deep-oak mb-3">Premium Materials</h3>
+            <h3 class="font-serif text-xl font-bold text-deep-oak mb-3">Premium Teak Wood</h3>
             <p class="text-oak-light">
-              High-quality 18mm and 15mm melamine boards with gloss and matte finish options for
-              durability and style.
+              High-quality teak wood sourced carefully and finished with precision for durability,
+              beauty, and longevity that spans generations.
             </p>
           </div>
           <div class="bg-warm-white rounded-2xl p-8 text-center shadow-lg">
@@ -90,8 +91,8 @@
             </div>
             <h3 class="font-serif text-xl font-bold text-deep-oak mb-3">Custom Designs</h3>
             <p class="text-oak-light">
-              Wardrobes, TV consoles, dressing units, and office furniture tailored to your exact
-              specifications and space.
+              Sofas, dining sets, bedroom suites, and office furniture fully customizable to your
+              exact specifications and style preferences.
             </p>
           </div>
           <div class="bg-warm-white rounded-2xl p-8 text-center shadow-lg">
@@ -102,8 +103,8 @@
             </div>
             <h3 class="font-serif text-xl font-bold text-deep-oak mb-3">Expert Craftsmanship</h3>
             <p class="text-oak-light">
-              Professional installation and finishing with attention to detail. We've served several
-              prominent Sri Lankan celebrities.
+              Professional installation and finishing with meticulous attention to detail.
+              Traditional Sri Lankan woodworking combined with modern design excellence.
             </p>
           </div>
           <div class="bg-warm-white rounded-2xl p-8 text-center shadow-lg">
@@ -112,10 +113,10 @@
             >
               <i class="pi pi-shield text-3xl text-gold-accent"></i>
             </div>
-            <h3 class="font-serif text-xl font-bold text-deep-oak mb-3">Convenient Delivery</h3>
+            <h3 class="font-serif text-xl font-bold text-deep-oak mb-3">Warranty & Support</h3>
             <p class="text-oak-light">
-              Free delivery within Colombo areas with affordable rates across the island. Reliable
-              and timely service.
+              10-year warranty on teak furniture structures. Reliable and dedicated customer support
+              throughout your ownership.
             </p>
           </div>
         </div>
@@ -196,10 +197,12 @@
             class="bg-warm-white/10 backdrop-blur-sm rounded-2xl p-8 border border-warm-white/20"
           >
             <i class="pi pi-home text-4xl text-gold-accent mb-4"></i>
-            <h3 class="font-serif text-2xl font-bold text-warm-white mb-3">Ready-Made Furniture</h3>
+            <h3 class="font-serif text-2xl font-bold text-warm-white mb-3">
+              Teak Furniture Collection
+            </h3>
             <p class="text-cream/80">
-              Explore our extensive collection of bedroom sets, sofas, dining tables, and more.
-              Immediate availability with island-wide delivery.
+              Explore our extensive collection of premium teak sofas, dining sets, bedroom suites,
+              and more. Immediate availability with island-wide delivery.
             </p>
           </div>
           <div
@@ -208,18 +211,18 @@
             <i class="pi pi-palette text-4xl text-gold-accent mb-4"></i>
             <h3 class="font-serif text-2xl font-bold text-warm-white mb-3">Custom Design</h3>
             <p class="text-cream/80">
-              Have a unique vision? Our design team will work with you to create bespoke furniture
-              tailored to your exact specifications.
+              Have a unique vision? Our design team will work with you to create bespoke teak
+              furniture tailored to your exact specifications and preferences.
             </p>
           </div>
           <div
             class="bg-warm-white/10 backdrop-blur-sm rounded-2xl p-8 border border-warm-white/20"
           >
             <i class="pi pi-building text-4xl text-gold-accent mb-4"></i>
-            <h3 class="font-serif text-2xl font-bold text-warm-white mb-3">Interior Design</h3>
+            <h3 class="font-serif text-2xl font-bold text-warm-white mb-3">Interior Solutions</h3>
             <p class="text-cream/80">
-              Complete interior design services for homes and businesses. From concept to
-              installation, we handle everything.
+              Complete furniture solutions for homes and businesses. From concept to installation,
+              we handle everything with premium teak options.
             </p>
           </div>
           <div
@@ -228,8 +231,8 @@
             <i class="pi pi-wrench text-4xl text-gold-accent mb-4"></i>
             <h3 class="font-serif text-2xl font-bold text-warm-white mb-3">Restoration</h3>
             <p class="text-cream/80">
-              Breathe new life into your cherished antique or damaged furniture with our expert
-              restoration services.
+              Breathe new life into your teak or antique furniture with our expert restoration and
+              refinishing services.
             </p>
           </div>
           <div
@@ -240,17 +243,17 @@
               Delivery & Installation
             </h3>
             <p class="text-cream/80">
-              Free island-wide delivery with professional installation by our trained team. Your
-              furniture, perfectly placed.
+              Free delivery to selected areas (Negombo & Kelaniya) with professional installation by
+              our trained team. Furniture, perfectly placed.
             </p>
           </div>
           <div
             class="bg-warm-white/10 backdrop-blur-sm rounded-2xl p-8 border border-warm-white/20"
           >
             <i class="pi pi-comments text-4xl text-gold-accent mb-4"></i>
-            <h3 class="font-serif text-2xl font-bold text-warm-white mb-3">Consultation</h3>
+            <h3 class="font-serif text-2xl font-bold text-warm-white mb-3">Free Consultation</h3>
             <p class="text-cream/80">
-              Free design consultation at our showroom or your location. Let our experts help you
+              Free design consultation at our Kelaniya or Negombo showroom. Let our experts help you
               make the right choice.
             </p>
           </div>
@@ -262,11 +265,11 @@
     <section class="py-20 bg-cream">
       <div class="container mx-auto px-4 text-center">
         <h2 class="font-serif text-4xl md:text-5xl font-bold text-deep-oak mb-6">
-          Visit Our Showroom
+          Visit Our Showrooms
         </h2>
         <p class="text-oak-light text-xl mb-8 max-w-2xl mx-auto">
-          Experience our craftsmanship firsthand. Visit us at Dangedara, Galle, and let us help you
-          find the perfect furniture for your home.
+          Experience our craftsmanship firsthand. Visit us at Kelaniya (Main) or Negombo showroom,
+          and let us help you find the perfect teak furniture for your home.
         </p>
         <div class="flex flex-wrap justify-center gap-4">
           <Button
@@ -293,7 +296,7 @@ import { ref } from 'vue';
 const breadcrumbItems = ref([{ label: 'About Us' }]);
 
 const openMaps = () => {
-  window.open('https://maps.google.com/?q=No+379+Dangedara+Galle+Sri+Lanka', '_blank');
+  window.open('https://maps.google.com/?q=342/21+Udana+Mawatha+Gonawala+Kelaniya+11600', '_blank');
 };
 </script>
 
